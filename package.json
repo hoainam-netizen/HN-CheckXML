@@ -2,7 +2,7 @@
   "name": "matdash-react-vite-ts",
   "homepage": "https://themewagon.github.io/MatDash/",
   "private": true,
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Ứng dụng check XML desktop",
   "author": "Nguyễn Quang Hoài Nam",
   "main": "main/main.js",
