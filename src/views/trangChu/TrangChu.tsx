@@ -1629,7 +1629,7 @@ const XMLViewer: React.FC = () => {
             <div className="flex flex-col items-center gap-4">
               <p className="text-center text-slate-500 text-[11px] font-bold uppercase tracking-[0.2em] max-w-2xl leading-relaxed">
                 Bản quyền thuộc về <span className="text-blue-600">Nguyễn Quang Hoài Nam (IT - HCTH)</span>
-                <br />Phòng khám Đa khoa Đông Hiếu © 2026
+                <br />Phòng khám Đa khoa Đông Hiếu © 2026 V1.0.2
               </p>
               <button
                 onClick={() => setOpenModal(true)}
