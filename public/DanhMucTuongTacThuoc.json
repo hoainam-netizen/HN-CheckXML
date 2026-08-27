@@ -1,0 +1,2072 @@
+[
+    {
+        "ma_hoat_chat_1": "Aceclofenac",
+        "ma_thuoc_1": "40.25",
+        "ma_hoat_chat_2": "Ketorolac",
+        "ma_thuoc_2": "40.39"
+    },
+    {
+        "ma_hoat_chat_1": "Acenocoumarol",
+        "ma_thuoc_1": "40.438",
+        "ma_hoat_chat_2": "Tamoxifen",
+        "ma_thuoc_2": "40.393"
+    },
+    {
+        "ma_hoat_chat_1": "acetylsalicylic acid",
+        "ma_thuoc_1": "40.538",
+        "ma_hoat_chat_2": "Ketorolac",
+        "ma_thuoc_2": "40.39"
+    },
+    {
+        "ma_hoat_chat_1": "Acitretin",
+        "ma_thuoc_1": "40.581",
+        "ma_hoat_chat_2": "Doxycyclin",
+        "ma_thuoc_2": "40.245"
+    },
+    {
+        "ma_hoat_chat_1": "Acitretin",
+        "ma_thuoc_1": "40.581",
+        "ma_hoat_chat_2": "Minocyclin",
+        "ma_thuoc_2": "40.246"
+    },
+    {
+        "ma_hoat_chat_1": "Acitretin",
+        "ma_thuoc_1": "40.581",
+        "ma_hoat_chat_2": "Tetracyclin (hydroclorid)",
+        "ma_thuoc_2": "40.247"
+    },
+    {
+        "ma_hoat_chat_1": "Acitretin",
+        "ma_thuoc_1": "40.581",
+        "ma_hoat_chat_2": "Tigecyclin*",
+        "ma_thuoc_2": "40.30.247"
+    },
+    {
+        "ma_hoat_chat_1": "Adipiodon (meglumin)",
+        "ma_thuoc_1": "40.632",
+        "ma_hoat_chat_2": "Metformin",
+        "ma_thuoc_2": "40.807"
+    },
+    {
+        "ma_hoat_chat_1": "Alfuzosin",
+        "ma_thuoc_1": "40.412",
+        "ma_hoat_chat_2": "Lopinavir + ritonavir (LPV/r)",
+        "ma_thuoc_2": "40.269"
+    },
+    {
+        "ma_hoat_chat_1": "Amiodaron (hydroclorid)",
+        "ma_thuoc_1": "40.483",
+        "ma_hoat_chat_2": "Thioridazin",
+        "ma_thuoc_2": "40.957"
+    },
+    {
+        "ma_hoat_chat_1": "Amiodaron (hydroclorid)",
+        "ma_thuoc_1": "40.483",
+        "ma_hoat_chat_2": "Moxifloxacin",
+        "ma_thuoc_2": "40.232"
+    },
+    {
+        "ma_hoat_chat_1": "Amiodaron (hydroclorid)",
+        "ma_thuoc_1": "40.483",
+        "ma_hoat_chat_2": "Sotalol",
+        "ma_thuoc_2": "40.488"
+    },
+    {
+        "ma_hoat_chat_1": "Amiodaron (hydroclorid)",
+        "ma_thuoc_1": "40.483",
+        "ma_hoat_chat_2": "Clorpromazin",
+        "ma_thuoc_2": "40.943"
+    },
+    {
+        "ma_hoat_chat_1": "Amiodaron (hydroclorid)",
+        "ma_thuoc_1": "40.483",
+        "ma_hoat_chat_2": "Citalopram",
+        "ma_thuoc_2": "40.962"
+    },
+    {
+        "ma_hoat_chat_1": "Amiodaron (hydroclorid)",
+        "ma_thuoc_1": "40.483",
+        "ma_hoat_chat_2": "Haloperidol",
+        "ma_thuoc_2": "40.949"
+    },
+    {
+        "ma_hoat_chat_1": "Amiodaron (hydroclorid)",
+        "ma_thuoc_1": "40.483",
+        "ma_hoat_chat_2": "Cloroquin",
+        "ma_thuoc_2": "40.326"
+    },
+    {
+        "ma_hoat_chat_1": "Amiodaron (hydroclorid)",
+        "ma_thuoc_1": "40.483",
+        "ma_hoat_chat_2": "Domperidon",
+        "ma_thuoc_2": "40.688"
+    },
+    {
+        "ma_hoat_chat_1": "Amiodaron (hydroclorid)",
+        "ma_thuoc_1": "40.483",
+        "ma_hoat_chat_2": "Fluconazol",
+        "ma_thuoc_2": "40.288"
+    },
+    {
+        "ma_hoat_chat_1": "Amiodaron (hydroclorid)",
+        "ma_thuoc_1": "40.483",
+        "ma_hoat_chat_2": "Piperaquin + dihydroartemisinin",
+        "ma_thuoc_2": "40.329"
+    },
+    {
+        "ma_hoat_chat_1": "Amiodaron (hydroclorid)",
+        "ma_thuoc_1": "40.483",
+        "ma_hoat_chat_2": "Colchicin",
+        "ma_thuoc_2": "40.61"
+    },
+    {
+        "ma_hoat_chat_1": "Amisulprid",
+        "ma_thuoc_1": "40.942",
+        "ma_hoat_chat_2": "Thioridazin",
+        "ma_thuoc_2": "40.957"
+    },
+    {
+        "ma_hoat_chat_1": "Amitriptylin hydroclorid",
+        "ma_thuoc_1": "40.961",
+        "ma_hoat_chat_2": "Xanh methylen",
+        "ma_thuoc_2": "40.130"
+    },
+    {
+        "ma_hoat_chat_1": "Arsenic trioxid",
+        "ma_thuoc_1": "40.338",
+        "ma_hoat_chat_2": "Thioridazin",
+        "ma_thuoc_2": "40.957"
+    },
+    {
+        "ma_hoat_chat_1": "Arsenic trioxid",
+        "ma_thuoc_1": "40.338",
+        "ma_hoat_chat_2": "Domperidon",
+        "ma_thuoc_2": "40.688"
+    },
+    {
+        "ma_hoat_chat_1": "Atorvastatin",
+        "ma_thuoc_1": "40.549",
+        "ma_hoat_chat_2": "Ciclosporin",
+        "ma_thuoc_2": "40.405"
+    },
+    {
+        "ma_hoat_chat_1": "Atorvastatin",
+        "ma_thuoc_1": "40.549",
+        "ma_hoat_chat_2": "Gemfibrozil",
+        "ma_thuoc_2": "40.555"
+    },
+    {
+        "ma_hoat_chat_1": "Azithromycin",
+        "ma_thuoc_1": "40.219",
+        "ma_hoat_chat_2": "Thioridazin",
+        "ma_thuoc_2": "40.957"
+    },
+    {
+        "ma_hoat_chat_1": "Azithromycin",
+        "ma_thuoc_1": "40.219",
+        "ma_hoat_chat_2": "Haloperidol",
+        "ma_thuoc_2": "40.949"
+    },
+    {
+        "ma_hoat_chat_1": "Azithromycin",
+        "ma_thuoc_1": "40.219",
+        "ma_hoat_chat_2": "Domperidon",
+        "ma_thuoc_2": "40.688"
+    },
+    {
+        "ma_hoat_chat_1": "Bosentan",
+        "ma_thuoc_1": "40.560",
+        "ma_hoat_chat_2": "Glibenclamid",
+        "ma_thuoc_2": "40.799"
+    },
+    {
+        "ma_hoat_chat_1": "Bosentan",
+        "ma_thuoc_1": "40.560",
+        "ma_hoat_chat_2": "Ciclosporin",
+        "ma_thuoc_2": "40.405"
+    },
+    {
+        "ma_hoat_chat_1": "Calci clorid",
+        "ma_thuoc_1": "40.1014",
+        "ma_hoat_chat_2": "Ceftriaxon",
+        "ma_thuoc_2": "40.183"
+    },
+    {
+        "ma_hoat_chat_1": "Calci glubionat",
+        "ma_thuoc_1": "40.1035",
+        "ma_hoat_chat_2": "Ceftriaxon",
+        "ma_thuoc_2": "40.183"
+    },
+    {
+        "ma_hoat_chat_1": "Calci gluconat",
+        "ma_thuoc_1": "40.98",
+        "ma_hoat_chat_2": "Ceftriaxon",
+        "ma_thuoc_2": "40.183"
+    },
+    {
+        "ma_hoat_chat_1": "Carbamazepin",
+        "ma_thuoc_1": "40.131",
+        "ma_hoat_chat_2": "Xanh methylen",
+        "ma_thuoc_2": "40.130"
+    },
+    {
+        "ma_hoat_chat_1": "Carbamazepin",
+        "ma_thuoc_1": "40.131",
+        "ma_hoat_chat_2": "Praziquantel",
+        "ma_thuoc_2": "40.151"
+    },
+    {
+        "ma_hoat_chat_1": "Carbamazepin",
+        "ma_thuoc_1": "40.131",
+        "ma_hoat_chat_2": "Voriconazol*",
+        "ma_thuoc_2": "40.30.303"
+    },
+    {
+        "ma_hoat_chat_1": "Carbamazepin",
+        "ma_thuoc_1": "40.131",
+        "ma_hoat_chat_2": "Daclatasvir",
+        "ma_thuoc_2": "40.30.272"
+    },
+    {
+        "ma_hoat_chat_1": "Carbamazepin",
+        "ma_thuoc_1": "40.131",
+        "ma_hoat_chat_2": "Delamanid",
+        "ma_thuoc_2": "40.30.328"
+    },
+    {
+        "ma_hoat_chat_1": "Carvedilol",
+        "ma_thuoc_1": "40.497",
+        "ma_hoat_chat_2": "Colchicin",
+        "ma_thuoc_2": "40.61"
+    },
+    {
+        "ma_hoat_chat_1": "Ceftriaxon",
+        "ma_thuoc_1": "40.183",
+        "ma_hoat_chat_2": "Calci gluconat",
+        "ma_thuoc_2": 40.98
+    },
+    {
+        "ma_hoat_chat_1": "Ceftriaxon",
+        "ma_thuoc_1": "40.183",
+        "ma_hoat_chat_2": "Ringer Lactat",
+        "ma_thuoc_2": "40.1026"
+    },
+    {
+        "ma_hoat_chat_1": "Celecoxib",
+        "ma_thuoc_1": "40.28",
+        "ma_hoat_chat_2": "Ketorolac",
+        "ma_thuoc_2": "40.39"
+    },
+    {
+        "ma_hoat_chat_1": "Ciclosporin",
+        "ma_thuoc_1": "40.405",
+        "ma_hoat_chat_2": "Lovastatin",
+        "ma_thuoc_2": "40.556"
+    },
+    {
+        "ma_hoat_chat_1": "Ciclosporin",
+        "ma_thuoc_1": "40.405",
+        "ma_hoat_chat_2": "Simvastatin",
+        "ma_thuoc_2": "40.559"
+    },
+    {
+        "ma_hoat_chat_1": "Ciclosporin",
+        "ma_thuoc_1": "40.405",
+        "ma_hoat_chat_2": "Colchicin",
+        "ma_thuoc_2": "40.61"
+    },
+    {
+        "ma_hoat_chat_1": "Ciclosporin",
+        "ma_thuoc_1": "40.405",
+        "ma_hoat_chat_2": "Lercanidipin hydroclorid",
+        "ma_thuoc_2": "40.509"
+    },
+    {
+        "ma_hoat_chat_1": "Cilostazol",
+        "ma_thuoc_1": "40.441",
+        "ma_hoat_chat_2": "Domperidon",
+        "ma_thuoc_2": "40.688"
+    },
+    {
+        "ma_hoat_chat_1": "Ciprofloxacin",
+        "ma_thuoc_1": "40.227",
+        "ma_hoat_chat_2": "Thioridazin",
+        "ma_thuoc_2": "40.957"
+    },
+    {
+        "ma_hoat_chat_1": "Ciprofloxacin",
+        "ma_thuoc_1": "40.227",
+        "ma_hoat_chat_2": "Tizanidin hydroclorid",
+        "ma_thuoc_2": "40.840"
+    },
+    {
+        "ma_hoat_chat_1": "Ciprofloxacin",
+        "ma_thuoc_1": "40.227",
+        "ma_hoat_chat_2": "Domperidon",
+        "ma_thuoc_2": "40.688"
+    },
+    {
+        "ma_hoat_chat_1": "Citalopram",
+        "ma_thuoc_1": "40.962",
+        "ma_hoat_chat_2": "Linezolid*",
+        "ma_thuoc_2": "40.253"
+    },
+    {
+        "ma_hoat_chat_1": "Citalopram",
+        "ma_thuoc_1": "40.962",
+        "ma_hoat_chat_2": "Xanh methylen",
+        "ma_thuoc_2": "40.130"
+    },
+    {
+        "ma_hoat_chat_1": "Citalopram",
+        "ma_thuoc_1": "40.962",
+        "ma_hoat_chat_2": "Thioridazin",
+        "ma_thuoc_2": "40.957"
+    },
+    {
+        "ma_hoat_chat_1": "Citalopram",
+        "ma_thuoc_1": "40.962",
+        "ma_hoat_chat_2": "Moxifloxacin",
+        "ma_thuoc_2": "40.232"
+    },
+    {
+        "ma_hoat_chat_1": "Citalopram",
+        "ma_thuoc_1": "40.962",
+        "ma_hoat_chat_2": "Clorpromazin",
+        "ma_thuoc_2": "40.943"
+    },
+    {
+        "ma_hoat_chat_1": "Citalopram",
+        "ma_thuoc_1": "40.962",
+        "ma_hoat_chat_2": "Domperidon",
+        "ma_thuoc_2": "40.688"
+    },
+    {
+        "ma_hoat_chat_1": "Citalopram",
+        "ma_thuoc_1": "40.962",
+        "ma_hoat_chat_2": "Fluconazol",
+        "ma_thuoc_2": "40.288"
+    },
+    {
+        "ma_hoat_chat_1": "Citalopram",
+        "ma_thuoc_1": "40.962",
+        "ma_hoat_chat_2": "Haloperidol",
+        "ma_thuoc_2": "40.949"
+    },
+    {
+        "ma_hoat_chat_1": "Citalopram",
+        "ma_thuoc_1": "40.962",
+        "ma_hoat_chat_2": "Sotalol",
+        "ma_thuoc_2": "40.488"
+    },
+    {
+        "ma_hoat_chat_1": "Clarithromycin",
+        "ma_thuoc_1": "40.220",
+        "ma_hoat_chat_2": "Dihydro ergotamin mesylat",
+        "ma_thuoc_2": "40.334"
+    },
+    {
+        "ma_hoat_chat_1": "Clarithromycin",
+        "ma_thuoc_1": "40.220",
+        "ma_hoat_chat_2": "Thioridazin",
+        "ma_thuoc_2": "40.957"
+    },
+    {
+        "ma_hoat_chat_1": "Clarithromycin",
+        "ma_thuoc_1": "40.220",
+        "ma_hoat_chat_2": "Fluconazol",
+        "ma_thuoc_2": "40.288"
+    },
+    {
+        "ma_hoat_chat_1": "Clarithromycin",
+        "ma_thuoc_1": "40.220",
+        "ma_hoat_chat_2": "Haloperidol",
+        "ma_thuoc_2": "40.949"
+    },
+    {
+        "ma_hoat_chat_1": "Clarithromycin",
+        "ma_thuoc_1": "40.220",
+        "ma_hoat_chat_2": "Piperaquin + dihydroartemisinin",
+        "ma_thuoc_2": "40.329"
+    },
+    {
+        "ma_hoat_chat_1": "Clarithromycin",
+        "ma_thuoc_1": "40.220",
+        "ma_hoat_chat_2": "Lovastatin",
+        "ma_thuoc_2": "40.556"
+    },
+    {
+        "ma_hoat_chat_1": "Clarithromycin",
+        "ma_thuoc_1": "40.220",
+        "ma_hoat_chat_2": "Simvastatin",
+        "ma_thuoc_2": "40.559"
+    },
+    {
+        "ma_hoat_chat_1": "Clarithromycin",
+        "ma_thuoc_1": "40.220",
+        "ma_hoat_chat_2": "Colchicin",
+        "ma_thuoc_2": "40.61"
+    },
+    {
+        "ma_hoat_chat_1": "Clarithromycin",
+        "ma_thuoc_1": "40.220",
+        "ma_hoat_chat_2": "Ergometrin (hydrogen maleat)",
+        "ma_thuoc_2": "40.920"
+    },
+    {
+        "ma_hoat_chat_1": "Clarithromycin",
+        "ma_thuoc_1": "40.220",
+        "ma_hoat_chat_2": "Methyl ergometrin (maleat)",
+        "ma_thuoc_2": "40.918"
+    },
+    {
+        "ma_hoat_chat_1": "Clarithromycin",
+        "ma_thuoc_1": "40.220",
+        "ma_hoat_chat_2": "Ivabradin",
+        "ma_thuoc_2": "40.485"
+    },
+    {
+        "ma_hoat_chat_1": "Clarithromycin",
+        "ma_thuoc_1": "40.220",
+        "ma_hoat_chat_2": "Ticagrelor",
+        "ma_thuoc_2": "40.30.564"
+    },
+    {
+        "ma_hoat_chat_1": "Clarithromycin",
+        "ma_thuoc_1": "40.220",
+        "ma_hoat_chat_2": "Felodipin",
+        "ma_thuoc_2": "40.502"
+    },
+    {
+        "ma_hoat_chat_1": "Clarithromycin",
+        "ma_thuoc_1": "40.220",
+        "ma_hoat_chat_2": "Lercanidipin hydroclorid",
+        "ma_thuoc_2": "40.509"
+    },
+    {
+        "ma_hoat_chat_1": "Clarithromycin",
+        "ma_thuoc_1": "40.220",
+        "ma_hoat_chat_2": "Quetiapin",
+        "ma_thuoc_2": "40.954"
+    },
+    {
+        "ma_hoat_chat_1": "Clarithromycin",
+        "ma_thuoc_1": "40.220",
+        "ma_hoat_chat_2": "Everolimus",
+        "ma_thuoc_2": "40.407"
+    },
+    {
+        "ma_hoat_chat_1": "Clarithromycin",
+        "ma_thuoc_1": "40.220",
+        "ma_hoat_chat_2": "Domperidon",
+        "ma_thuoc_2": "40.688"
+    },
+    {
+        "ma_hoat_chat_1": "Clarithromycin",
+        "ma_thuoc_1": "40.220",
+        "ma_hoat_chat_2": "Ergotamin (tartrat)",
+        "ma_thuoc_2": "40.335"
+    },
+    {
+        "ma_hoat_chat_1": "Clomipramin",
+        "ma_thuoc_1": "40.963",
+        "ma_hoat_chat_2": "Linezolid*",
+        "ma_thuoc_2": "40.253"
+    },
+    {
+        "ma_hoat_chat_1": "Clomipramin",
+        "ma_thuoc_1": "40.963",
+        "ma_hoat_chat_2": "Xanh methylen",
+        "ma_thuoc_2": "40.130"
+    },
+    {
+        "ma_hoat_chat_1": "Cloroquin",
+        "ma_thuoc_1": "40.326",
+        "ma_hoat_chat_2": "Thioridazin",
+        "ma_thuoc_2": "40.957"
+    },
+    {
+        "ma_hoat_chat_1": "Cloroquin",
+        "ma_thuoc_1": "40.326",
+        "ma_hoat_chat_2": "Domperidon",
+        "ma_thuoc_2": "40.688"
+    },
+    {
+        "ma_hoat_chat_1": "Clorpromazin",
+        "ma_thuoc_1": "40.943",
+        "ma_hoat_chat_2": "Thioridazin",
+        "ma_thuoc_2": "40.957"
+    },
+    {
+        "ma_hoat_chat_1": "Clorpromazin",
+        "ma_thuoc_1": "40.943",
+        "ma_hoat_chat_2": "Moxifloxacin",
+        "ma_thuoc_2": "40.232"
+    },
+    {
+        "ma_hoat_chat_1": "Clorpromazin",
+        "ma_thuoc_1": "40.943",
+        "ma_hoat_chat_2": "Haloperidol",
+        "ma_thuoc_2": "40.949"
+    },
+    {
+        "ma_hoat_chat_1": "Clorpromazin",
+        "ma_thuoc_1": "40.943",
+        "ma_hoat_chat_2": "Piperaquin + dihydroartemisinin",
+        "ma_thuoc_2": "40.329"
+    },
+    {
+        "ma_hoat_chat_1": "Clorpromazin",
+        "ma_thuoc_1": "40.943",
+        "ma_hoat_chat_2": "Domperidon",
+        "ma_thuoc_2": "40.688"
+    },
+    {
+        "ma_hoat_chat_1": "Colchicin",
+        "ma_thuoc_1": "40.61",
+        "ma_hoat_chat_2": "Itraconazol",
+        "ma_thuoc_2": "40.292"
+    },
+    {
+        "ma_hoat_chat_1": "Colchicin",
+        "ma_thuoc_1": "40.61",
+        "ma_hoat_chat_2": "Posaconazol*",
+        "ma_thuoc_2": "40.30.301"
+    },
+    {
+        "ma_hoat_chat_1": "Colchicin",
+        "ma_thuoc_1": "40.61",
+        "ma_hoat_chat_2": "Voriconazol*",
+        "ma_thuoc_2": "40.30.303"
+    },
+    {
+        "ma_hoat_chat_1": "Colchicin",
+        "ma_thuoc_1": "40.61",
+        "ma_hoat_chat_2": "Roxithromycin",
+        "ma_thuoc_2": "40.223"
+    },
+    {
+        "ma_hoat_chat_1": "Colchicin",
+        "ma_thuoc_1": "40.61",
+        "ma_hoat_chat_2": "Erythromycin",
+        "ma_thuoc_2": "40.221"
+    },
+    {
+        "ma_hoat_chat_1": "Colchicin",
+        "ma_thuoc_1": "40.61",
+        "ma_hoat_chat_2": "Verapamil (hydroclorid)",
+        "ma_thuoc_2": "40.489"
+    },
+    {
+        "ma_hoat_chat_1": "Colchicin",
+        "ma_thuoc_1": "40.61",
+        "ma_hoat_chat_2": "Diltiazem",
+        "ma_thuoc_2": "40.477"
+    },
+    {
+        "ma_hoat_chat_1": "Colchicin",
+        "ma_thuoc_1": "40.61",
+        "ma_hoat_chat_2": "Nilotinib",
+        "ma_thuoc_2": "40.384"
+    },
+    {
+        "ma_hoat_chat_1": "Dabigatran",
+        "ma_thuoc_1": "40.442",
+        "ma_hoat_chat_2": "Itraconazol",
+        "ma_thuoc_2": "40.292"
+    },
+    {
+        "ma_hoat_chat_1": "Daclatasvir",
+        "ma_thuoc_1": "40.30.272",
+        "ma_hoat_chat_2": "Rifampicin",
+        "ma_thuoc_2": "40.256"
+    },
+    {
+        "ma_hoat_chat_1": "Daclatasvir",
+        "ma_thuoc_1": "40.30.272",
+        "ma_hoat_chat_2": "Phenobarbital",
+        "ma_thuoc_2": "40.136"
+    },
+    {
+        "ma_hoat_chat_1": "Daclatasvir",
+        "ma_thuoc_1": "40.30.272",
+        "ma_hoat_chat_2": "Phenytoin",
+        "ma_thuoc_2": "40.137"
+    },
+    {
+        "ma_hoat_chat_1": "Danazol",
+        "ma_thuoc_1": "40.763",
+        "ma_hoat_chat_2": "Simvastatin",
+        "ma_thuoc_2": "40.559"
+    },
+    {
+        "ma_hoat_chat_1": "Danazol",
+        "ma_thuoc_1": "40.763",
+        "ma_hoat_chat_2": "Lovastatin",
+        "ma_thuoc_2": "40.556"
+    },
+    {
+        "ma_hoat_chat_1": "ritonavir",
+        "ma_thuoc_1": "40.274",
+        "ma_hoat_chat_2": "Everolimus",
+        "ma_thuoc_2": "40.407"
+    },
+    {
+        "ma_hoat_chat_1": "ritonavir",
+        "ma_thuoc_1": "40.274",
+        "ma_hoat_chat_2": "Voriconazol*",
+        "ma_thuoc_2": "40.30.303"
+    },
+    {
+        "ma_hoat_chat_1": "Delamanid",
+        "ma_thuoc_1": "40.30.328",
+        "ma_hoat_chat_2": "Rifampicin",
+        "ma_thuoc_2": "40.256"
+    },
+    {
+        "ma_hoat_chat_1": "Delamanid",
+        "ma_thuoc_1": "40.30.328",
+        "ma_hoat_chat_2": "Phenytoin",
+        "ma_thuoc_2": "40.137"
+    },
+    {
+        "ma_hoat_chat_1": "Dexibuprofen",
+        "ma_thuoc_1": "40.29",
+        "ma_hoat_chat_2": "Ketorolac",
+        "ma_thuoc_2": "40.39"
+    },
+    {
+        "ma_hoat_chat_1": "Dextromethorphan",
+        "ma_thuoc_1": "40.993",
+        "ma_hoat_chat_2": "Linezolid*",
+        "ma_thuoc_2": "40.253"
+    },
+    {
+        "ma_hoat_chat_1": "Dextromethorphan",
+        "ma_thuoc_1": "40.993",
+        "ma_hoat_chat_2": "Xanh methylen",
+        "ma_thuoc_2": "40.130"
+    },
+    {
+        "ma_hoat_chat_1": "Dextromethorphan",
+        "ma_thuoc_1": "40.993",
+        "ma_hoat_chat_2": "Paroxetin",
+        "ma_thuoc_2": "40.967"
+    },
+    {
+        "ma_hoat_chat_1": "Dextromethorphan",
+        "ma_thuoc_1": "40.993",
+        "ma_hoat_chat_2": "Fluoxetin",
+        "ma_thuoc_2": "40.964"
+    },
+    {
+        "ma_hoat_chat_1": "Diclofenac",
+        "ma_thuoc_1": "40.30",
+        "ma_hoat_chat_2": "Ketorolac",
+        "ma_thuoc_2": "40.39"
+    },
+    {
+        "ma_hoat_chat_1": "Dihydro ergotamin mesylat",
+        "ma_thuoc_1": "40.334",
+        "ma_hoat_chat_2": "Sumatriptan",
+        "ma_thuoc_2": "40.337"
+    },
+    {
+        "ma_hoat_chat_1": "Dihydro ergotamin mesylat",
+        "ma_thuoc_1": "40.334",
+        "ma_hoat_chat_2": "Roxithromycin",
+        "ma_thuoc_2": "40.223"
+    },
+    {
+        "ma_hoat_chat_1": "Dihydro ergotamin mesylat",
+        "ma_thuoc_1": "40.334",
+        "ma_hoat_chat_2": "Erythromycin",
+        "ma_thuoc_2": "40.221"
+    },
+    {
+        "ma_hoat_chat_1": "Dihydro ergotamin mesylat",
+        "ma_thuoc_1": "40.334",
+        "ma_hoat_chat_2": "Voriconazol*",
+        "ma_thuoc_2": "40.30.303"
+    },
+    {
+        "ma_hoat_chat_1": "Dihydro ergotamin mesylat",
+        "ma_thuoc_1": "40.334",
+        "ma_hoat_chat_2": "Posaconazol*",
+        "ma_thuoc_2": "40.30.301"
+    },
+    {
+        "ma_hoat_chat_1": "Dihydro ergotamin mesylat",
+        "ma_thuoc_1": "40.334",
+        "ma_hoat_chat_2": "Itraconazol",
+        "ma_thuoc_2": "40.292"
+    },
+    {
+        "ma_hoat_chat_1": "Dihydro ergotamin mesylat",
+        "ma_thuoc_1": "40.334",
+        "ma_hoat_chat_2": "Saquinavir*",
+        "ma_thuoc_2": "40.275"
+    },
+    {
+        "ma_hoat_chat_1": "Dihydro ergotamin mesylat",
+        "ma_thuoc_1": "40.334",
+        "ma_hoat_chat_2": "Lopinavir + ritonavir (LPV/r)",
+        "ma_thuoc_2": "40.269"
+    },
+    {
+        "ma_hoat_chat_1": "Dihydro ergotamin mesylat",
+        "ma_thuoc_1": "40.334",
+        "ma_hoat_chat_2": "Indinavir*",
+        "ma_thuoc_2": "40.266"
+    },
+    {
+        "ma_hoat_chat_1": "Diltiazem",
+        "ma_thuoc_1": "40.477",
+        "ma_hoat_chat_2": "Ivabradin",
+        "ma_thuoc_2": "40.485"
+    },
+    {
+        "ma_hoat_chat_1": "Domperidon",
+        "ma_thuoc_1": "40.688",
+        "ma_hoat_chat_2": "Indinavir*",
+        "ma_thuoc_2": "40.266"
+    },
+    {
+        "ma_hoat_chat_1": "Domperidon",
+        "ma_thuoc_1": "40.688",
+        "ma_hoat_chat_2": "Sotalol",
+        "ma_thuoc_2": "40.488"
+    },
+    {
+        "ma_hoat_chat_1": "Domperidon",
+        "ma_thuoc_1": "40.688",
+        "ma_hoat_chat_2": "Donepezil",
+        "ma_thuoc_2": "40.946"
+    },
+    {
+        "ma_hoat_chat_1": "Domperidon",
+        "ma_thuoc_1": "40.688",
+        "ma_hoat_chat_2": "Haloperidol",
+        "ma_thuoc_2": "40.949"
+    },
+    {
+        "ma_hoat_chat_1": "Domperidon",
+        "ma_thuoc_1": "40.688",
+        "ma_hoat_chat_2": "Spiramycin",
+        "ma_thuoc_2": "40.224"
+    },
+    {
+        "ma_hoat_chat_1": "Domperidon",
+        "ma_thuoc_1": "40.688",
+        "ma_hoat_chat_2": "Moxifloxacin",
+        "ma_thuoc_2": "40.232"
+    },
+    {
+        "ma_hoat_chat_1": "Domperidon",
+        "ma_thuoc_1": "40.688",
+        "ma_hoat_chat_2": "Levofloxacin",
+        "ma_thuoc_2": "40.229"
+    },
+    {
+        "ma_hoat_chat_1": "Domperidon",
+        "ma_thuoc_1": "40.688",
+        "ma_hoat_chat_2": "Thioridazin",
+        "ma_thuoc_2": "40.957"
+    },
+    {
+        "ma_hoat_chat_1": "Domperidon",
+        "ma_thuoc_1": "40.688",
+        "ma_hoat_chat_2": "Lopinavir + ritonavir (LPV/r)",
+        "ma_thuoc_2": "40.269"
+    },
+    {
+        "ma_hoat_chat_1": "Domperidon",
+        "ma_thuoc_1": "40.688",
+        "ma_hoat_chat_2": "Saquinavir*",
+        "ma_thuoc_2": "40.275"
+    },
+    {
+        "ma_hoat_chat_1": "Domperidon",
+        "ma_thuoc_1": "40.688",
+        "ma_hoat_chat_2": "Itraconazol",
+        "ma_thuoc_2": "40.292"
+    },
+    {
+        "ma_hoat_chat_1": "Domperidon",
+        "ma_thuoc_1": "40.688",
+        "ma_hoat_chat_2": "Fluconazol",
+        "ma_thuoc_2": "40.288"
+    },
+    {
+        "ma_hoat_chat_1": "Domperidon",
+        "ma_thuoc_1": "40.688",
+        "ma_hoat_chat_2": "Posaconazol*",
+        "ma_thuoc_2": "40.30.301"
+    },
+    {
+        "ma_hoat_chat_1": "Domperidon",
+        "ma_thuoc_1": "40.688",
+        "ma_hoat_chat_2": "Voriconazol*",
+        "ma_thuoc_2": "40.30.303"
+    },
+    {
+        "ma_hoat_chat_1": "Domperidon",
+        "ma_thuoc_1": "40.688",
+        "ma_hoat_chat_2": "Erythromycin",
+        "ma_thuoc_2": "40.221"
+    },
+    {
+        "ma_hoat_chat_1": "Domperidon",
+        "ma_thuoc_1": "40.688",
+        "ma_hoat_chat_2": "Levomepromazin",
+        "ma_thuoc_2": "40.950"
+    },
+    {
+        "ma_hoat_chat_1": "Domperidon",
+        "ma_thuoc_1": "40.688",
+        "ma_hoat_chat_2": "Levosulpirid",
+        "ma_thuoc_2": "40.951"
+    },
+    {
+        "ma_hoat_chat_1": "Domperidon",
+        "ma_thuoc_1": "40.688",
+        "ma_hoat_chat_2": "Ondansetron",
+        "ma_thuoc_2": "40.691"
+    },
+    {
+        "ma_hoat_chat_1": "Domperidon",
+        "ma_thuoc_1": "40.688",
+        "ma_hoat_chat_2": "Oxaliplatin",
+        "ma_thuoc_2": "40.386"
+    },
+    {
+        "ma_hoat_chat_1": "Domperidon",
+        "ma_thuoc_1": "40.688",
+        "ma_hoat_chat_2": "Propofol",
+        "ma_thuoc_2": "40.21"
+    },
+    {
+        "ma_hoat_chat_1": "Domperidon",
+        "ma_thuoc_1": "40.688",
+        "ma_hoat_chat_2": "Roxithromycin",
+        "ma_thuoc_2": "40.223"
+    },
+    {
+        "ma_hoat_chat_1": "Domperidon",
+        "ma_thuoc_1": "40.688",
+        "ma_hoat_chat_2": "Sevofluran",
+        "ma_thuoc_2": "40.22"
+    },
+    {
+        "ma_hoat_chat_1": "Domperidon",
+        "ma_thuoc_1": "40.688",
+        "ma_hoat_chat_2": "Sulpirid",
+        "ma_thuoc_2": "40.956"
+    },
+    {
+        "ma_hoat_chat_1": "Donepezil",
+        "ma_thuoc_1": "40.946",
+        "ma_hoat_chat_2": "Thioridazin",
+        "ma_thuoc_2": "40.957"
+    },
+    {
+        "ma_hoat_chat_1": "Donepezil",
+        "ma_thuoc_1": "40.946",
+        "ma_hoat_chat_2": "Fluconazol",
+        "ma_thuoc_2": "40.288"
+    },
+    {
+        "ma_hoat_chat_1": "Doxycyclin",
+        "ma_thuoc_1": "40.245",
+        "ma_hoat_chat_2": "Tretinoin",
+        "ma_thuoc_2": "40.625"
+    },
+    {
+        "ma_hoat_chat_1": "Doxycyclin",
+        "ma_thuoc_1": "40.245",
+        "ma_hoat_chat_2": "Isotretinoin",
+        "ma_thuoc_2": "40.610"
+    },
+    {
+        "ma_hoat_chat_1": "Ephedrin (hydroclorid)",
+        "ma_thuoc_1": "40.105",
+        "ma_hoat_chat_2": "Xanh methylen",
+        "ma_thuoc_2": "40.130"
+    },
+    {
+        "ma_hoat_chat_1": "Ergometrin (hydrogen maleat)",
+        "ma_thuoc_1": "40.920",
+        "ma_hoat_chat_2": "Sumatriptan",
+        "ma_thuoc_2": "40.337"
+    },
+    {
+        "ma_hoat_chat_1": "Ergometrin (hydrogen maleat)",
+        "ma_thuoc_1": "40.920",
+        "ma_hoat_chat_2": "Roxithromycin",
+        "ma_thuoc_2": "40.223"
+    },
+    {
+        "ma_hoat_chat_1": "Ergometrin (hydrogen maleat)",
+        "ma_thuoc_1": "40.920",
+        "ma_hoat_chat_2": "Erythromycin",
+        "ma_thuoc_2": "40.221"
+    },
+    {
+        "ma_hoat_chat_1": "Ergometrin (hydrogen maleat)",
+        "ma_thuoc_1": "40.920",
+        "ma_hoat_chat_2": "Voriconazol*",
+        "ma_thuoc_2": "40.30.303"
+    },
+    {
+        "ma_hoat_chat_1": "Ergometrin (hydrogen maleat)",
+        "ma_thuoc_1": "40.920",
+        "ma_hoat_chat_2": "Posaconazol*",
+        "ma_thuoc_2": "40.30.301"
+    },
+    {
+        "ma_hoat_chat_1": "Ergometrin (hydrogen maleat)",
+        "ma_thuoc_1": "40.920",
+        "ma_hoat_chat_2": "Itraconazol",
+        "ma_thuoc_2": "40.292"
+    },
+    {
+        "ma_hoat_chat_1": "Ergometrin (hydrogen maleat)",
+        "ma_thuoc_1": "40.920",
+        "ma_hoat_chat_2": "Saquinavir*",
+        "ma_thuoc_2": "40.275"
+    },
+    {
+        "ma_hoat_chat_1": "Ergometrin (hydrogen maleat)",
+        "ma_thuoc_1": "40.920",
+        "ma_hoat_chat_2": "Lopinavir + ritonavir (LPV/r)",
+        "ma_thuoc_2": "40.269"
+    },
+    {
+        "ma_hoat_chat_1": "Ergometrin (hydrogen maleat)",
+        "ma_thuoc_1": "40.920",
+        "ma_hoat_chat_2": "Indinavir*",
+        "ma_thuoc_2": "40.266"
+    },
+    {
+        "ma_hoat_chat_1": "Ergotamin (tartrat)",
+        "ma_thuoc_1": "40.335",
+        "ma_hoat_chat_2": "Sumatriptan",
+        "ma_thuoc_2": "40.337"
+    },
+    {
+        "ma_hoat_chat_1": "Ergotamin (tartrat)",
+        "ma_thuoc_1": "40.335",
+        "ma_hoat_chat_2": "Roxithromycin",
+        "ma_thuoc_2": "40.223"
+    },
+    {
+        "ma_hoat_chat_1": "Ergotamin (tartrat)",
+        "ma_thuoc_1": "40.335",
+        "ma_hoat_chat_2": "Erythromycin",
+        "ma_thuoc_2": "40.221"
+    },
+    {
+        "ma_hoat_chat_1": "Ergotamin (tartrat)",
+        "ma_thuoc_1": "40.335",
+        "ma_hoat_chat_2": "Voriconazol*",
+        "ma_thuoc_2": "40.30.303"
+    },
+    {
+        "ma_hoat_chat_1": "Ergotamin (tartrat)",
+        "ma_thuoc_1": "40.335",
+        "ma_hoat_chat_2": "Posaconazol*",
+        "ma_thuoc_2": "40.30.301"
+    },
+    {
+        "ma_hoat_chat_1": "Ergotamin (tartrat)",
+        "ma_thuoc_1": "40.335",
+        "ma_hoat_chat_2": "Itraconazol",
+        "ma_thuoc_2": "40.292"
+    },
+    {
+        "ma_hoat_chat_1": "Ergotamin (tartrat)",
+        "ma_thuoc_1": "40.335",
+        "ma_hoat_chat_2": "Saquinavir*",
+        "ma_thuoc_2": "40.275"
+    },
+    {
+        "ma_hoat_chat_1": "Ergotamin (tartrat)",
+        "ma_thuoc_1": "40.335",
+        "ma_hoat_chat_2": "Lopinavir + ritonavir (LPV/r)",
+        "ma_thuoc_2": "40.269"
+    },
+    {
+        "ma_hoat_chat_1": "Ergotamin (tartrat)",
+        "ma_thuoc_1": "40.335",
+        "ma_hoat_chat_2": "Indinavir*",
+        "ma_thuoc_2": "40.266"
+    },
+    {
+        "ma_hoat_chat_1": "Erythromycin",
+        "ma_thuoc_1": "40.221",
+        "ma_hoat_chat_2": "Thioridazin",
+        "ma_thuoc_2": "40.957"
+    },
+    {
+        "ma_hoat_chat_1": "Erythromycin",
+        "ma_thuoc_1": "40.221",
+        "ma_hoat_chat_2": "Fluconazol",
+        "ma_thuoc_2": "40.288"
+    },
+    {
+        "ma_hoat_chat_1": "Erythromycin",
+        "ma_thuoc_1": "40.221",
+        "ma_hoat_chat_2": "Piperaquin + dihydroartemisinin",
+        "ma_thuoc_2": "40.329"
+    },
+    {
+        "ma_hoat_chat_1": "Erythromycin",
+        "ma_thuoc_1": "40.221",
+        "ma_hoat_chat_2": "Lovastatin",
+        "ma_thuoc_2": "40.556"
+    },
+    {
+        "ma_hoat_chat_1": "Erythromycin",
+        "ma_thuoc_1": "40.221",
+        "ma_hoat_chat_2": "Simvastatin",
+        "ma_thuoc_2": "40.559"
+    },
+    {
+        "ma_hoat_chat_1": "Erythromycin",
+        "ma_thuoc_1": "40.221",
+        "ma_hoat_chat_2": "Methyl ergometrin (maleat)",
+        "ma_thuoc_2": "40.918"
+    },
+    {
+        "ma_hoat_chat_1": "Erythromycin",
+        "ma_thuoc_1": "40.221",
+        "ma_hoat_chat_2": "Ivabradin",
+        "ma_thuoc_2": "40.485"
+    },
+    {
+        "ma_hoat_chat_1": "Etodolac",
+        "ma_thuoc_1": "40.32",
+        "ma_hoat_chat_2": "Ketorolac",
+        "ma_thuoc_2": "40.39"
+    },
+    {
+        "ma_hoat_chat_1": "Etoricoxib",
+        "ma_thuoc_1": "40.33",
+        "ma_hoat_chat_2": "Ketorolac",
+        "ma_thuoc_2": "40.39"
+    },
+    {
+        "ma_hoat_chat_1": "Everolimus",
+        "ma_thuoc_1": "40.407",
+        "ma_hoat_chat_2": "Lopinavir + ritonavir (LPV/r)",
+        "ma_thuoc_2": "40.269"
+    },
+    {
+        "ma_hoat_chat_1": "Everolimus",
+        "ma_thuoc_1": "40.407",
+        "ma_hoat_chat_2": "ritonavir",
+        "ma_thuoc_2": "40.274"
+    },
+    {
+        "ma_hoat_chat_1": "Everolimus",
+        "ma_thuoc_1": "40.407",
+        "ma_hoat_chat_2": "Itraconazol",
+        "ma_thuoc_2": "40.292"
+    },
+    {
+        "ma_hoat_chat_1": "Felodipin",
+        "ma_thuoc_1": "40.502",
+        "ma_hoat_chat_2": "Lopinavir + ritonavir (LPV/r)",
+        "ma_thuoc_2": "40.269"
+    },
+    {
+        "ma_hoat_chat_1": "Felodipin",
+        "ma_thuoc_1": "40.502",
+        "ma_hoat_chat_2": "Indinavir*",
+        "ma_thuoc_2": "40.266"
+    },
+    {
+        "ma_hoat_chat_1": "Felodipin",
+        "ma_thuoc_1": "40.502",
+        "ma_hoat_chat_2": "Saquinavir*",
+        "ma_thuoc_2": "40.275"
+    },
+    {
+        "ma_hoat_chat_1": "Felodipin",
+        "ma_thuoc_1": "40.502",
+        "ma_hoat_chat_2": "Itraconazol",
+        "ma_thuoc_2": "40.292"
+    },
+    {
+        "ma_hoat_chat_1": "Felodipin",
+        "ma_thuoc_1": "40.502",
+        "ma_hoat_chat_2": "Posaconazol*",
+        "ma_thuoc_2": "40.30.301"
+    },
+    {
+        "ma_hoat_chat_1": "Felodipin",
+        "ma_thuoc_1": "40.502",
+        "ma_hoat_chat_2": "Voriconazol*",
+        "ma_thuoc_2": "40.30.303"
+    },
+    {
+        "ma_hoat_chat_1": "Fentanyl",
+        "ma_thuoc_1": "40.6",
+        "ma_hoat_chat_2": "Linezolid*",
+        "ma_thuoc_2": "40.253"
+    },
+    {
+        "ma_hoat_chat_1": "Fentanyl",
+        "ma_thuoc_1": "40.6",
+        "ma_hoat_chat_2": "Xanh methylen",
+        "ma_thuoc_2": "40.130"
+    },
+    {
+        "ma_hoat_chat_1": "Floctafenin",
+        "ma_thuoc_1": "40.35",
+        "ma_hoat_chat_2": "Ketorolac",
+        "ma_thuoc_2": "40.39"
+    },
+    {
+        "ma_hoat_chat_1": "Fluconazol",
+        "ma_thuoc_1": "40.288",
+        "ma_hoat_chat_2": "Thioridazin",
+        "ma_thuoc_2": "40.957"
+    },
+    {
+        "ma_hoat_chat_1": "Fluconazol",
+        "ma_thuoc_1": "40.288",
+        "ma_hoat_chat_2": "Ondansetron",
+        "ma_thuoc_2": "40.691"
+    },
+    {
+        "ma_hoat_chat_1": "Fluconazol",
+        "ma_thuoc_1": "40.288",
+        "ma_hoat_chat_2": "Haloperidol",
+        "ma_thuoc_2": "40.949"
+    },
+    {
+        "ma_hoat_chat_1": "Fluoxetin",
+        "ma_thuoc_1": "40.964",
+        "ma_hoat_chat_2": "Linezolid*",
+        "ma_thuoc_2": "40.253"
+    },
+    {
+        "ma_hoat_chat_1": "Fluoxetin",
+        "ma_thuoc_1": "40.964",
+        "ma_hoat_chat_2": "Xanh methylen",
+        "ma_thuoc_2": "40.130"
+    },
+    {
+        "ma_hoat_chat_1": "Flurbiprofen natri",
+        "ma_thuoc_1": "40.36",
+        "ma_hoat_chat_2": "Ketorolac",
+        "ma_thuoc_2": "40.39"
+    },
+    {
+        "ma_hoat_chat_1": "Fluvastatin",
+        "ma_thuoc_1": "40.554",
+        "ma_hoat_chat_2": "Gemfibrozil",
+        "ma_thuoc_2": "40.555"
+    },
+    {
+        "ma_hoat_chat_1": "Fluvoxamin",
+        "ma_thuoc_1": "40.965",
+        "ma_hoat_chat_2": "Linezolid*",
+        "ma_thuoc_2": "40.253"
+    },
+    {
+        "ma_hoat_chat_1": "Fluvoxamin",
+        "ma_thuoc_1": "40.965",
+        "ma_hoat_chat_2": "Xanh methylen",
+        "ma_thuoc_2": "40.130"
+    },
+    {
+        "ma_hoat_chat_1": "Fluvoxamin",
+        "ma_thuoc_1": "40.965",
+        "ma_hoat_chat_2": "Tizanidin hydroclorid",
+        "ma_thuoc_2": "40.840"
+    },
+    {
+        "ma_hoat_chat_1": "Gemfibrozil",
+        "ma_thuoc_1": "40.555",
+        "ma_hoat_chat_2": "Repaglinid",
+        "ma_thuoc_2": "40.809"
+    },
+    {
+        "ma_hoat_chat_1": "Gemfibrozil",
+        "ma_thuoc_1": "40.555",
+        "ma_hoat_chat_2": "Simvastatin",
+        "ma_thuoc_2": "40.559"
+    },
+    {
+        "ma_hoat_chat_1": "Gemfibrozil",
+        "ma_thuoc_1": "40.555",
+        "ma_hoat_chat_2": "Lovastatin",
+        "ma_thuoc_2": "40.556"
+    },
+    {
+        "ma_hoat_chat_1": "Gemfibrozil",
+        "ma_thuoc_1": "40.555",
+        "ma_hoat_chat_2": "Pravastatin",
+        "ma_thuoc_2": "40.557"
+    },
+    {
+        "ma_hoat_chat_1": "Haloperidol",
+        "ma_thuoc_1": "40.949",
+        "ma_hoat_chat_2": "Thioridazin",
+        "ma_thuoc_2": "40.957"
+    },
+    {
+        "ma_hoat_chat_1": "Haloperidol",
+        "ma_thuoc_1": "40.949",
+        "ma_hoat_chat_2": "Moxifloxacin",
+        "ma_thuoc_2": "40.232"
+    },
+    {
+        "ma_hoat_chat_1": "Haloperidol",
+        "ma_thuoc_1": "40.949",
+        "ma_hoat_chat_2": "Sotalol",
+        "ma_thuoc_2": "40.488"
+    },
+    {
+        "ma_hoat_chat_1": "Haloperidol",
+        "ma_thuoc_1": "40.949",
+        "ma_hoat_chat_2": "Levofloxacin",
+        "ma_thuoc_2": "40.229"
+    },
+    {
+        "ma_hoat_chat_1": "Haloperidol",
+        "ma_thuoc_1": "40.949",
+        "ma_hoat_chat_2": "Piperaquin + dihydroartemisinin",
+        "ma_thuoc_2": "40.329"
+    },
+    {
+        "ma_hoat_chat_1": "Hydroxy cloroquin",
+        "ma_thuoc_1": "40.327",
+        "ma_hoat_chat_2": "Thioridazin",
+        "ma_thuoc_2": "40.957"
+    },
+    {
+        "ma_hoat_chat_1": "Hyoscin butylbromid",
+        "ma_thuoc_1": "40.698",
+        "ma_hoat_chat_2": "Kali clorid (dạng uống giải phóng kéo dài)",
+        "ma_thuoc_2": 40.1005
+    },
+    {
+        "ma_hoat_chat_1": "Ibuprofen",
+        "ma_thuoc_1": "40.37",
+        "ma_hoat_chat_2": "Ketorolac",
+        "ma_thuoc_2": "40.39"
+    },
+    {
+        "ma_hoat_chat_1": "Indinavir*",
+        "ma_thuoc_1": "40.266",
+        "ma_hoat_chat_2": "Lovastatin",
+        "ma_thuoc_2": "40.556"
+    },
+    {
+        "ma_hoat_chat_1": "Indinavir*",
+        "ma_thuoc_1": "40.266",
+        "ma_hoat_chat_2": "Simvastatin",
+        "ma_thuoc_2": "40.559"
+    },
+    {
+        "ma_hoat_chat_1": "Indinavir*",
+        "ma_thuoc_1": "40.266",
+        "ma_hoat_chat_2": "Methyl ergometrin (maleat)",
+        "ma_thuoc_2": "40.918"
+    },
+    {
+        "ma_hoat_chat_1": "Indinavir*",
+        "ma_thuoc_1": "40.266",
+        "ma_hoat_chat_2": "Ivabradin",
+        "ma_thuoc_2": "40.485"
+    },
+    {
+        "ma_hoat_chat_1": "Indinavir*",
+        "ma_thuoc_1": "40.266",
+        "ma_hoat_chat_2": "Ticagrelor",
+        "ma_thuoc_2": "40.30.564"
+    },
+    {
+        "ma_hoat_chat_1": "Indinavir*",
+        "ma_thuoc_1": "40.266",
+        "ma_hoat_chat_2": "Lercanidipin hydroclorid",
+        "ma_thuoc_2": "40.509"
+    },
+    {
+        "ma_hoat_chat_1": "Indinavir*",
+        "ma_thuoc_1": "40.266",
+        "ma_hoat_chat_2": "Quetiapin",
+        "ma_thuoc_2": "40.954"
+    },
+    {
+        "ma_hoat_chat_1": "Indinavir*",
+        "ma_thuoc_1": "40.266",
+        "ma_hoat_chat_2": "Rifampicin",
+        "ma_thuoc_2": "40.256"
+    },
+    {
+        "ma_hoat_chat_1": "Indomethacin",
+        "ma_thuoc_1": "40.568",
+        "ma_hoat_chat_2": "Ketorolac",
+        "ma_thuoc_2": "40.39"
+    },
+    {
+        "ma_hoat_chat_1": "Iobitridol",
+        "ma_thuoc_1": "40.642",
+        "ma_hoat_chat_2": "Metformin",
+        "ma_thuoc_2": "40.807"
+    },
+    {
+        "ma_hoat_chat_1": "Iodixanol",
+        "ma_thuoc_1": "40.30.647",
+        "ma_hoat_chat_2": "Metformin",
+        "ma_thuoc_2": "40.807"
+    },
+    {
+        "ma_hoat_chat_1": "Iohexol",
+        "ma_thuoc_1": "40.644",
+        "ma_hoat_chat_2": "Metformin",
+        "ma_thuoc_2": "40.807"
+    },
+    {
+        "ma_hoat_chat_1": "Iopamidol",
+        "ma_thuoc_1": "40.645",
+        "ma_hoat_chat_2": "Metformin",
+        "ma_thuoc_2": "40.807"
+    },
+    {
+        "ma_hoat_chat_1": "Iopromid acid",
+        "ma_thuoc_1": "40.646",
+        "ma_hoat_chat_2": "Metformin",
+        "ma_thuoc_2": "40.807"
+    },
+    {
+        "ma_hoat_chat_1": "Ioxitalamat natri + ioxitalamat meglumin",
+        "ma_thuoc_1": "40.647",
+        "ma_hoat_chat_2": "Metformin",
+        "ma_thuoc_2": "40.807"
+    },
+    {
+        "ma_hoat_chat_1": "Irinotecan",
+        "ma_thuoc_1": "40.374",
+        "ma_hoat_chat_2": "Itraconazol",
+        "ma_thuoc_2": "40.292"
+    },
+    {
+        "ma_hoat_chat_1": "Isotretinoin",
+        "ma_thuoc_1": "40.610",
+        "ma_hoat_chat_2": "Minocyclin",
+        "ma_thuoc_2": "40.246"
+    },
+    {
+        "ma_hoat_chat_1": "Isotretinoin",
+        "ma_thuoc_1": "40.610",
+        "ma_hoat_chat_2": "Tetracyclin (hydroclorid)",
+        "ma_thuoc_2": "40.247"
+    },
+    {
+        "ma_hoat_chat_1": "Isotretinoin",
+        "ma_thuoc_1": "40.610",
+        "ma_hoat_chat_2": "Tigecyclin*",
+        "ma_thuoc_2": "40.30.247"
+    },
+    {
+        "ma_hoat_chat_1": "Itraconazol",
+        "ma_thuoc_1": "40.292",
+        "ma_hoat_chat_2": "Lovastatin",
+        "ma_thuoc_2": "40.556"
+    },
+    {
+        "ma_hoat_chat_1": "Itraconazol",
+        "ma_thuoc_1": "40.292",
+        "ma_hoat_chat_2": "Simvastatin",
+        "ma_thuoc_2": "40.559"
+    },
+    {
+        "ma_hoat_chat_1": "Itraconazol",
+        "ma_thuoc_1": "40.292",
+        "ma_hoat_chat_2": "Methyl ergometrin (maleat)",
+        "ma_thuoc_2": "40.918"
+    },
+    {
+        "ma_hoat_chat_1": "Itraconazol",
+        "ma_thuoc_1": "40.292",
+        "ma_hoat_chat_2": "Ivabradin",
+        "ma_thuoc_2": "40.485"
+    },
+    {
+        "ma_hoat_chat_1": "Itraconazol",
+        "ma_thuoc_1": "40.292",
+        "ma_hoat_chat_2": "Ticagrelor",
+        "ma_thuoc_2": "40.30.564"
+    },
+    {
+        "ma_hoat_chat_1": "Itraconazol",
+        "ma_thuoc_1": "40.292",
+        "ma_hoat_chat_2": "Lercanidipin hydroclorid",
+        "ma_thuoc_2": "40.509"
+    },
+    {
+        "ma_hoat_chat_1": "Itraconazol",
+        "ma_thuoc_1": "40.292",
+        "ma_hoat_chat_2": "Quetiapin",
+        "ma_thuoc_2": "40.954"
+    },
+    {
+        "ma_hoat_chat_1": "Ivabradin",
+        "ma_thuoc_1": "40.485",
+        "ma_hoat_chat_2": "Lopinavir + ritonavir (LPV/r)",
+        "ma_thuoc_2": "40.269"
+    },
+    {
+        "ma_hoat_chat_1": "Ivabradin",
+        "ma_thuoc_1": "40.485",
+        "ma_hoat_chat_2": "Saquinavir*",
+        "ma_thuoc_2": "40.275"
+    },
+    {
+        "ma_hoat_chat_1": "Ivabradin",
+        "ma_thuoc_1": "40.485",
+        "ma_hoat_chat_2": "Posaconazol*",
+        "ma_thuoc_2": "40.30.301"
+    },
+    {
+        "ma_hoat_chat_1": "Ivabradin",
+        "ma_thuoc_1": "40.485",
+        "ma_hoat_chat_2": "Voriconazol*",
+        "ma_thuoc_2": "40.30.303"
+    },
+    {
+        "ma_hoat_chat_1": "Ivabradin",
+        "ma_thuoc_1": "40.485",
+        "ma_hoat_chat_2": "Verapamil (hydroclorid)",
+        "ma_thuoc_2": "40.489"
+    },
+    {
+        "ma_hoat_chat_1": "Kali clorid",
+        "ma_thuoc_1": "40.1005",
+        "ma_hoat_chat_2": "Trihexyphenidyl (hydroclorid)",
+        "ma_thuoc_2": "40.425"
+    },
+    {
+        "ma_hoat_chat_1": "Kali clorid",
+        "ma_thuoc_1": "40.1005",
+        "ma_hoat_chat_2": "Solifenacin succinate",
+        "ma_thuoc_2": "40.30.426"
+    },
+    {
+        "ma_hoat_chat_1": "Ketoprofen",
+        "ma_thuoc_1": "40.38",
+        "ma_hoat_chat_2": "Ketorolac",
+        "ma_thuoc_2": "40.39"
+    },
+    {
+        "ma_hoat_chat_1": "Ketorolac",
+        "ma_thuoc_1": "40.39",
+        "ma_hoat_chat_2": "Loxoprofen",
+        "ma_thuoc_2": "40.40"
+    },
+    {
+        "ma_hoat_chat_1": "Ketorolac",
+        "ma_thuoc_1": "40.39",
+        "ma_hoat_chat_2": "Meloxicam",
+        "ma_thuoc_2": "40.41"
+    },
+    {
+        "ma_hoat_chat_1": "Ketorolac",
+        "ma_thuoc_1": "40.39",
+        "ma_hoat_chat_2": "Nabumeton",
+        "ma_thuoc_2": "40.45"
+    },
+    {
+        "ma_hoat_chat_1": "Ketorolac",
+        "ma_thuoc_1": "40.39",
+        "ma_hoat_chat_2": "Naproxen",
+        "ma_thuoc_2": "40.46"
+    },
+    {
+        "ma_hoat_chat_1": "Ketorolac",
+        "ma_thuoc_1": "40.39",
+        "ma_hoat_chat_2": "Piroxicam",
+        "ma_thuoc_2": "40.55"
+    },
+    {
+        "ma_hoat_chat_1": "Ketorolac",
+        "ma_thuoc_1": "40.39",
+        "ma_hoat_chat_2": "Tenoxicam",
+        "ma_thuoc_2": "40.56"
+    },
+    {
+        "ma_hoat_chat_1": "Lercanidipin hydroclorid",
+        "ma_thuoc_1": "40.509",
+        "ma_hoat_chat_2": "Lopinavir + ritonavir (LPV/r)",
+        "ma_thuoc_2": "40.269"
+    },
+    {
+        "ma_hoat_chat_1": "Lercanidipin hydroclorid",
+        "ma_thuoc_1": "40.509",
+        "ma_hoat_chat_2": "Saquinavir*",
+        "ma_thuoc_2": "40.275"
+    },
+    {
+        "ma_hoat_chat_1": "Lercanidipin hydroclorid",
+        "ma_thuoc_1": "40.509",
+        "ma_hoat_chat_2": "Posaconazol*",
+        "ma_thuoc_2": "40.30.301"
+    },
+    {
+        "ma_hoat_chat_1": "Lercanidipin hydroclorid",
+        "ma_thuoc_1": "40.509",
+        "ma_hoat_chat_2": "Voriconazol*",
+        "ma_thuoc_2": "40.30.303"
+    },
+    {
+        "ma_hoat_chat_1": "Levodopa + carbidopa",
+        "ma_thuoc_1": "40.419",
+        "ma_hoat_chat_2": "Metoclopramid",
+        "ma_thuoc_2": "40.690"
+    },
+    {
+        "ma_hoat_chat_1": "Levodopa + carbidopa",
+        "ma_thuoc_1": "40.419",
+        "ma_hoat_chat_2": "Sulpirid",
+        "ma_thuoc_2": "40.956"
+    },
+    {
+        "ma_hoat_chat_1": "Levodopa + carbidopa",
+        "ma_thuoc_1": "40.419",
+        "ma_hoat_chat_2": "Linezolid*",
+        "ma_thuoc_2": "40.253"
+    },
+    {
+        "ma_hoat_chat_1": "Levodopa + carbidopa",
+        "ma_thuoc_1": "40.419",
+        "ma_hoat_chat_2": "Xanh methylen",
+        "ma_thuoc_2": "40.130"
+    },
+    {
+        "ma_hoat_chat_1": "Levofloxacin",
+        "ma_thuoc_1": "40.229",
+        "ma_hoat_chat_2": "Thioridazin",
+        "ma_thuoc_2": "40.957"
+    },
+    {
+        "ma_hoat_chat_1": "Levosulpirid",
+        "ma_thuoc_1": "40.951",
+        "ma_hoat_chat_2": "Thioridazin",
+        "ma_thuoc_2": "40.957"
+    },
+    {
+        "ma_hoat_chat_1": "Linezolid*",
+        "ma_thuoc_1": "40.253",
+        "ma_hoat_chat_2": "Paroxetin",
+        "ma_thuoc_2": "40.967"
+    },
+    {
+        "ma_hoat_chat_1": "Linezolid*",
+        "ma_thuoc_1": "40.253",
+        "ma_hoat_chat_2": "Sertralin",
+        "ma_thuoc_2": "40.968"
+    },
+    {
+        "ma_hoat_chat_1": "Linezolid*",
+        "ma_thuoc_1": "40.253",
+        "ma_hoat_chat_2": "Venlafaxin",
+        "ma_thuoc_2": "40.970"
+    },
+    {
+        "ma_hoat_chat_1": "Linezolid*",
+        "ma_thuoc_1": "40.253",
+        "ma_hoat_chat_2": "Methylphenidate hydrochloride",
+        "ma_thuoc_2": "40.30.926"
+    },
+    {
+        "ma_hoat_chat_1": "Linezolid*",
+        "ma_thuoc_1": "40.253",
+        "ma_hoat_chat_2": "Mirtazapin",
+        "ma_thuoc_2": "40.966"
+    },
+    {
+        "ma_hoat_chat_1": "Linezolid*",
+        "ma_thuoc_1": "40.253",
+        "ma_hoat_chat_2": "Xanh methylen",
+        "ma_thuoc_2": "40.130"
+    },
+    {
+        "ma_hoat_chat_1": "Linezolid*",
+        "ma_thuoc_1": "40.253",
+        "ma_hoat_chat_2": "Sumatriptan",
+        "ma_thuoc_2": "40.337"
+    },
+    {
+        "ma_hoat_chat_1": "Linezolid*",
+        "ma_thuoc_1": "40.253",
+        "ma_hoat_chat_2": "Pethidin",
+        "ma_thuoc_2": "40.18"
+    },
+    {
+        "ma_hoat_chat_1": "Linezolid*",
+        "ma_thuoc_1": "40.253",
+        "ma_hoat_chat_2": "Tramadol",
+        "ma_thuoc_2": "40.58"
+    },
+    {
+        "ma_hoat_chat_1": "Linezolid*",
+        "ma_thuoc_1": "40.253",
+        "ma_hoat_chat_2": "Methyldopa",
+        "ma_thuoc_2": "40.514"
+    },
+    {
+        "ma_hoat_chat_1": "Linezolid*",
+        "ma_thuoc_1": "40.253",
+        "ma_hoat_chat_2": "Phenylephrin (sử dụng đường uống)",
+        "ma_thuoc_2": 40.121
+    },
+    {
+        "ma_hoat_chat_1": "Linezolid*",
+        "ma_thuoc_1": "40.253",
+        "ma_hoat_chat_2": "Nefopam hydroclorid",
+        "ma_thuoc_2": "40.47"
+    },
+    {
+        "ma_hoat_chat_1": "Lopinavir + ritonavir (LPV/r)",
+        "ma_thuoc_1": "40.269",
+        "ma_hoat_chat_2": "Lovastatin",
+        "ma_thuoc_2": "40.556"
+    },
+    {
+        "ma_hoat_chat_1": "Lopinavir + ritonavir (LPV/r)",
+        "ma_thuoc_1": "40.269",
+        "ma_hoat_chat_2": "Simvastatin",
+        "ma_thuoc_2": "40.559"
+    },
+    {
+        "ma_hoat_chat_1": "Lopinavir + ritonavir (LPV/r)",
+        "ma_thuoc_1": "40.269",
+        "ma_hoat_chat_2": "Methyl ergometrin (maleat)",
+        "ma_thuoc_2": "40.918"
+    },
+    {
+        "ma_hoat_chat_1": "Lopinavir + ritonavir (LPV/r)",
+        "ma_thuoc_1": "40.269",
+        "ma_hoat_chat_2": "Ticagrelor",
+        "ma_thuoc_2": "40.30.564"
+    },
+    {
+        "ma_hoat_chat_1": "Lopinavir + ritonavir (LPV/r)",
+        "ma_thuoc_1": "40.269",
+        "ma_hoat_chat_2": "Quetiapin",
+        "ma_thuoc_2": "40.954"
+    },
+    {
+        "ma_hoat_chat_1": "Lopinavir + ritonavir (LPV/r)",
+        "ma_thuoc_1": "40.269",
+        "ma_hoat_chat_2": "Rifampicin",
+        "ma_thuoc_2": "40.256"
+    },
+    {
+        "ma_hoat_chat_1": "Lopinavir + ritonavir (LPV/r)",
+        "ma_thuoc_1": "40.269",
+        "ma_hoat_chat_2": "Voriconazol*",
+        "ma_thuoc_2": "40.30.303"
+    },
+    {
+        "ma_hoat_chat_1": "Lovastatin",
+        "ma_thuoc_1": "40.556",
+        "ma_hoat_chat_2": "Saquinavir*",
+        "ma_thuoc_2": "40.275"
+    },
+    {
+        "ma_hoat_chat_1": "Lovastatin",
+        "ma_thuoc_1": "40.556",
+        "ma_hoat_chat_2": "Posaconazol*",
+        "ma_thuoc_2": "40.30.301"
+    },
+    {
+        "ma_hoat_chat_1": "Lovastatin",
+        "ma_thuoc_1": "40.556",
+        "ma_hoat_chat_2": "Voriconazol*",
+        "ma_thuoc_2": "40.30.303"
+    },
+    {
+        "ma_hoat_chat_1": "Methyl ergometrin (maleat)",
+        "ma_thuoc_1": "40.918",
+        "ma_hoat_chat_2": "Sumatriptan",
+        "ma_thuoc_2": "40.337"
+    },
+    {
+        "ma_hoat_chat_1": "Methyl ergometrin (maleat)",
+        "ma_thuoc_1": "40.918",
+        "ma_hoat_chat_2": "Roxithromycin",
+        "ma_thuoc_2": "40.223"
+    },
+    {
+        "ma_hoat_chat_1": "Methyl ergometrin (maleat)",
+        "ma_thuoc_1": "40.918",
+        "ma_hoat_chat_2": "Voriconazol*",
+        "ma_thuoc_2": "40.30.303"
+    },
+    {
+        "ma_hoat_chat_1": "Methyl ergometrin (maleat)",
+        "ma_thuoc_1": "40.918",
+        "ma_hoat_chat_2": "Posaconazol*",
+        "ma_thuoc_2": "40.30.301"
+    },
+    {
+        "ma_hoat_chat_1": "Methyl ergometrin (maleat)",
+        "ma_thuoc_1": "40.918",
+        "ma_hoat_chat_2": "Saquinavir*",
+        "ma_thuoc_2": "40.275"
+    },
+    {
+        "ma_hoat_chat_1": "Methyldopa",
+        "ma_thuoc_1": "40.514",
+        "ma_hoat_chat_2": "Xanh methylen",
+        "ma_thuoc_2": "40.130"
+    },
+    {
+        "ma_hoat_chat_1": "Methylphenidate hydrochloride",
+        "ma_thuoc_1": "40.30.926",
+        "ma_hoat_chat_2": "Xanh methylen",
+        "ma_thuoc_2": "40.130"
+    },
+    {
+        "ma_hoat_chat_1": "Metoclopramid",
+        "ma_thuoc_1": "40.690",
+        "ma_hoat_chat_2": "Rotigotine",
+        "ma_thuoc_2": "40.30.434"
+    },
+    {
+        "ma_hoat_chat_1": "Metoclopramid",
+        "ma_thuoc_1": "40.690",
+        "ma_hoat_chat_2": "Pramipexol",
+        "ma_thuoc_2": "40.423"
+    },
+    {
+        "ma_hoat_chat_1": "Metoclopramid",
+        "ma_thuoc_1": "40.690",
+        "ma_hoat_chat_2": "Piribedil",
+        "ma_thuoc_2": "40.422"
+    },
+    {
+        "ma_hoat_chat_1": "Minocyclin",
+        "ma_thuoc_1": "40.246",
+        "ma_hoat_chat_2": "Tretinoin",
+        "ma_thuoc_2": "40.625"
+    },
+    {
+        "ma_hoat_chat_1": "Mirtazapin",
+        "ma_thuoc_1": "40.966",
+        "ma_hoat_chat_2": "Xanh methylen",
+        "ma_thuoc_2": "40.130"
+    },
+    {
+        "ma_hoat_chat_1": "Moxifloxacin",
+        "ma_thuoc_1": "40.232",
+        "ma_hoat_chat_2": "Thioridazin",
+        "ma_thuoc_2": "40.957"
+    },
+    {
+        "ma_hoat_chat_1": "Moxifloxacin",
+        "ma_thuoc_1": "40.232",
+        "ma_hoat_chat_2": "Piperaquin + dihydroartemisinin",
+        "ma_thuoc_2": "40.329"
+    },
+    {
+        "ma_hoat_chat_1": "Moxifloxacin",
+        "ma_thuoc_1": "40.232",
+        "ma_hoat_chat_2": "Sotalol",
+        "ma_thuoc_2": "40.488"
+    },
+    {
+        "ma_hoat_chat_1": "Muối natri và meglumin của acid ioxaglic",
+        "ma_thuoc_1": "40.648",
+        "ma_hoat_chat_2": "Metformin",
+        "ma_thuoc_2": "40.807"
+    },
+    {
+        "ma_hoat_chat_1": "Nefopam hydroclorid",
+        "ma_thuoc_1": "40.47",
+        "ma_hoat_chat_2": "Xanh methylen",
+        "ma_thuoc_2": "40.130"
+    },
+    {
+        "ma_hoat_chat_1": "Nifedipin",
+        "ma_thuoc_1": "40.519",
+        "ma_hoat_chat_2": "Rifampicin",
+        "ma_thuoc_2": "40.256"
+    },
+    {
+        "ma_hoat_chat_1": "Ondansetron",
+        "ma_thuoc_1": "40.691",
+        "ma_hoat_chat_2": "Thioridazin",
+        "ma_thuoc_2": "40.957"
+    },
+    {
+        "ma_hoat_chat_1": "Oxaliplatin",
+        "ma_thuoc_1": "40.386",
+        "ma_hoat_chat_2": "Thioridazin",
+        "ma_thuoc_2": "40.957"
+    },
+    {
+        "ma_hoat_chat_1": "Paroxetin",
+        "ma_thuoc_1": "40.967",
+        "ma_hoat_chat_2": "Xanh methylen",
+        "ma_thuoc_2": "40.130"
+    },
+    {
+        "ma_hoat_chat_1": "Paroxetin",
+        "ma_thuoc_1": "40.967",
+        "ma_hoat_chat_2": "Thioridazin",
+        "ma_thuoc_2": "40.957"
+    },
+    {
+        "ma_hoat_chat_1": "Pethidin",
+        "ma_thuoc_1": "40.18",
+        "ma_hoat_chat_2": "Xanh methylen",
+        "ma_thuoc_2": "40.130"
+    },
+    {
+        "ma_hoat_chat_1": "Phenobarbital",
+        "ma_thuoc_1": "40.136",
+        "ma_hoat_chat_2": "Praziquantel",
+        "ma_thuoc_2": "40.151"
+    },
+    {
+        "ma_hoat_chat_1": "Phenobarbital",
+        "ma_thuoc_1": "40.136",
+        "ma_hoat_chat_2": "Voriconazol*",
+        "ma_thuoc_2": "40.30.303"
+    },
+    {
+        "ma_hoat_chat_1": "Phenylephrin (sử dụng đường uống)",
+        "ma_thuoc_1": 40.121,
+        "ma_hoat_chat_2": "Xanh methylen",
+        "ma_thuoc_2": "40.130"
+    },
+    {
+        "ma_hoat_chat_1": "Phenytoin",
+        "ma_thuoc_1": "40.137",
+        "ma_hoat_chat_2": "Praziquantel",
+        "ma_thuoc_2": "40.151"
+    },
+    {
+        "ma_hoat_chat_1": "Piperaquin + dihydroartemisinin",
+        "ma_thuoc_1": "40.329",
+        "ma_hoat_chat_2": "Thioridazin",
+        "ma_thuoc_2": "40.957"
+    },
+    {
+        "ma_hoat_chat_1": "Piperaquin + dihydroartemisinin",
+        "ma_thuoc_1": "40.329",
+        "ma_hoat_chat_2": "Sotalol",
+        "ma_thuoc_2": "40.488"
+    },
+    {
+        "ma_hoat_chat_1": "Piperaquin + dihydroartemisinin",
+        "ma_thuoc_1": "40.329",
+        "ma_hoat_chat_2": "Saquinavir*",
+        "ma_thuoc_2": "40.275"
+    },
+    {
+        "ma_hoat_chat_1": "Piribedil",
+        "ma_thuoc_1": "40.422",
+        "ma_hoat_chat_2": "Sulpirid",
+        "ma_thuoc_2": "40.956"
+    },
+    {
+        "ma_hoat_chat_1": "Posaconazol*",
+        "ma_thuoc_1": "40.30.301",
+        "ma_hoat_chat_2": "Simvastatin",
+        "ma_thuoc_2": "40.559"
+    },
+    {
+        "ma_hoat_chat_1": "Posaconazol*",
+        "ma_thuoc_1": "40.30.301",
+        "ma_hoat_chat_2": "Ticagrelor",
+        "ma_thuoc_2": "40.30.564"
+    },
+    {
+        "ma_hoat_chat_1": "Posaconazol*",
+        "ma_thuoc_1": "40.30.301",
+        "ma_hoat_chat_2": "Quetiapin",
+        "ma_thuoc_2": "40.954"
+    },
+    {
+        "ma_hoat_chat_1": "Pramipexol",
+        "ma_thuoc_1": "40.423",
+        "ma_hoat_chat_2": "Sulpirid",
+        "ma_thuoc_2": "40.956"
+    },
+    {
+        "ma_hoat_chat_1": "Praziquantel",
+        "ma_thuoc_1": "40.151",
+        "ma_hoat_chat_2": "Rifampicin",
+        "ma_thuoc_2": "40.256"
+    },
+    {
+        "ma_hoat_chat_1": "Quetiapin",
+        "ma_thuoc_1": "40.954",
+        "ma_hoat_chat_2": "Saquinavir*",
+        "ma_thuoc_2": "40.275"
+    },
+    {
+        "ma_hoat_chat_1": "Quetiapin",
+        "ma_thuoc_1": "40.954",
+        "ma_hoat_chat_2": "Voriconazol*",
+        "ma_thuoc_2": "40.30.303"
+    },
+    {
+        "ma_hoat_chat_1": "Rifampicin",
+        "ma_thuoc_1": "40.256",
+        "ma_hoat_chat_2": "Voriconazol*",
+        "ma_thuoc_2": "40.30.303"
+    },
+    {
+        "ma_hoat_chat_1": "Rifampicin",
+        "ma_thuoc_1": "40.256",
+        "ma_hoat_chat_2": "Sofosbuvir",
+        "ma_thuoc_2": "40.30.273"
+    },
+    {
+        "ma_hoat_chat_1": "Rifampicin",
+        "ma_thuoc_1": "40.256",
+        "ma_hoat_chat_2": "Saquinavir*",
+        "ma_thuoc_2": "40.275"
+    },
+    {
+        "ma_hoat_chat_1": "Rosuvastatin",
+        "ma_thuoc_1": "40.558",
+        "ma_hoat_chat_2": "Sofosbuvir + ledipasvir",
+        "ma_thuoc_2": "40.30.274"
+    },
+    {
+        "ma_hoat_chat_1": "Rotigotine",
+        "ma_thuoc_1": "40.30.434",
+        "ma_hoat_chat_2": "Sulpirid",
+        "ma_thuoc_2": "40.956"
+    },
+    {
+        "ma_hoat_chat_1": "Saquinavir*",
+        "ma_thuoc_1": "40.275",
+        "ma_hoat_chat_2": "Simvastatin",
+        "ma_thuoc_2": "40.559"
+    },
+    {
+        "ma_hoat_chat_1": "Saquinavir*",
+        "ma_thuoc_1": "40.275",
+        "ma_hoat_chat_2": "Ticagrelor",
+        "ma_thuoc_2": "40.30.564"
+    },
+    {
+        "ma_hoat_chat_1": "Sertralin",
+        "ma_thuoc_1": "40.968",
+        "ma_hoat_chat_2": "Xanh methylen",
+        "ma_thuoc_2": "40.130"
+    },
+    {
+        "ma_hoat_chat_1": "Sevofluran",
+        "ma_thuoc_1": "40.22",
+        "ma_hoat_chat_2": "Thioridazin",
+        "ma_thuoc_2": "40.957"
+    },
+    {
+        "ma_hoat_chat_1": "Simvastatin",
+        "ma_thuoc_1": "40.559",
+        "ma_hoat_chat_2": "Voriconazol*",
+        "ma_thuoc_2": "40.30.303"
+    },
+    {
+        "ma_hoat_chat_1": "Sotalol",
+        "ma_thuoc_1": "40.488",
+        "ma_hoat_chat_2": "Thioridazin",
+        "ma_thuoc_2": "40.957"
+    },
+    {
+        "ma_hoat_chat_1": "Sulpirid",
+        "ma_thuoc_1": "40.956",
+        "ma_hoat_chat_2": "Thioridazin",
+        "ma_thuoc_2": "40.957"
+    },
+    {
+        "ma_hoat_chat_1": "Sumatriptan",
+        "ma_thuoc_1": "40.337",
+        "ma_hoat_chat_2": "Xanh methylen",
+        "ma_thuoc_2": "40.130"
+    },
+    {
+        "ma_hoat_chat_1": "Tamoxifen",
+        "ma_thuoc_1": "40.393",
+        "ma_hoat_chat_2": "Warfarin (muối natri)",
+        "ma_thuoc_2": "40.454"
+    },
+    {
+        "ma_hoat_chat_1": "Tetracyclin (hydroclorid)",
+        "ma_thuoc_1": "40.247",
+        "ma_hoat_chat_2": "Tretinoin",
+        "ma_thuoc_2": "40.625"
+    },
+    {
+        "ma_hoat_chat_1": "Ticagrelor",
+        "ma_thuoc_1": "40.30.564",
+        "ma_hoat_chat_2": "Voriconazol*",
+        "ma_thuoc_2": "40.30.303"
+    },
+    {
+        "ma_hoat_chat_1": "Tigecyclin*",
+        "ma_thuoc_1": "40.30.247",
+        "ma_hoat_chat_2": "Tretinoin",
+        "ma_thuoc_2": "40.625"
+    },
+    {
+        "ma_hoat_chat_1": "Tramadol",
+        "ma_thuoc_1": "40.58",
+        "ma_hoat_chat_2": "Xanh methylen",
+        "ma_thuoc_2": "40.130"
+    },
+    {
+        "ma_hoat_chat_1": "Tranexamic acid",
+        "ma_thuoc_1": "40.451",
+        "ma_hoat_chat_2": "Ethinyl estradiol",
+        "ma_thuoc_2": "40.788"
+    },
+    {
+        "ma_hoat_chat_1": "Tranexamic acid",
+        "ma_thuoc_1": "40.451",
+        "ma_hoat_chat_2": "Estradiol valerate",
+        "ma_thuoc_2": "40.785"
+    },
+    {
+        "ma_hoat_chat_1": "Tranexamic acid",
+        "ma_thuoc_1": "40.451",
+        "ma_hoat_chat_2": "Estriol",
+        "ma_thuoc_2": "40.786"
+    },
+    {
+        "ma_hoat_chat_1": "Tranexamic acid",
+        "ma_thuoc_1": "40.451",
+        "ma_hoat_chat_2": "Lynestrenol",
+        "ma_thuoc_2": "40.789"
+    },
+    {
+        "ma_hoat_chat_1": "Tranexamic acid",
+        "ma_thuoc_1": 40451,
+        "ma_hoat_chat_2": "Norethisteron",
+        "ma_thuoc_2": "40.792"
+    },
+    {
+        "ma_hoat_chat_1": "Tranexamic acid",
+        "ma_thuoc_1": "40.451",
+        "ma_hoat_chat_2": "Estrogen + norgestrel",
+        "ma_thuoc_2": "40.787"
+    },
+    {
+        "ma_hoat_chat_1": "Venlafaxin",
+        "ma_thuoc_1": "40.970",
+        "ma_hoat_chat_2": "Xanh methylen",
+        "ma_thuoc_2": "40.130"
+    }
+]

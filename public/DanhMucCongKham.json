@@ -1,0 +1,224 @@
+[
+    {
+        "CONG_KHAM": "30.45",
+        "TEN_CONG_KHAM": "Khám Dinh dưỡng",
+        "PVCM": "133",
+        "BAN_KHAM": 30.45
+    },
+    {
+        "CONG_KHAM": "17.31",
+        "TEN_CONG_KHAM": "Khám Phục hồi chức năng",
+        "PVCM": "117",
+        "BAN_KHAM": 17.31
+    },
+    {
+        "CONG_KHAM": "16.29",
+        "TEN_CONG_KHAM": "Khám Răng Hàm Mặt",
+        "PVCM": "116",
+        "BAN_KHAM": 16.29
+    },
+    {
+        "CONG_KHAM": "15.28",
+        "TEN_CONG_KHAM": "Khám Tai Mũi Họng",
+        "PVCM": "115",
+        "BAN_KHAM": 15.28
+    },
+    {
+        "CONG_KHAM": "14.30",
+        "TEN_CONG_KHAM": "Khám Mắt",
+        "PVCM": "114",
+        "BAN_KHAM": "14.30"
+    },
+    {
+        "CONG_KHAM": "13.53",
+        "TEN_CONG_KHAM": "Khám Nam học",
+        "PVCM": "113",
+        "BAN_KHAM": 13.53
+    },
+    {
+        "CONG_KHAM": "13.27",
+        "TEN_CONG_KHAM": "Khám Phụ sản",
+        "PVCM": "113",
+        "BAN_KHAM": 13.27
+    },
+    {
+        "CONG_KHAM": "12.33",
+        "TEN_CONG_KHAM": "Khám Ung bướu",
+        "PVCM": "112",
+        "BAN_KHAM": "12.33"
+    },
+    {
+        "CONG_KHAM": "08.16",
+        "TEN_CONG_KHAM": "Khám Y học cổ truyền",
+        "PVCM": "108",
+        "BAN_KHAM": "08.16"
+    },
+    {
+        "CONG_KHAM": "04.12",
+        "TEN_CONG_KHAM": "Khám Lao (Ngoại lao)",
+        "PVCM": "104",
+        "BAN_KHAM": "04.12"
+    },
+    {
+        "CONG_KHAM": "03.18",
+        "TEN_CONG_KHAM": "Khám Nhi",
+        "PVCM": "103",
+        "BAN_KHAM": "03.18"
+    },
+    {
+        "CONG_KHAM": "10.22.1",
+        "TEN_CONG_KHAM": "Khám Ngoại gan - mật - tuỵ",
+        "PVCM": "110",
+        "BAN_KHAM": 10.22
+    },
+    {
+        "CONG_KHAM": "10.20.1",
+        "TEN_CONG_KHAM": "Khám Ngoại cột sống",
+        "PVCM": "110",
+        "BAN_KHAM": "10.20"
+    },
+    {
+        "CONG_KHAM": "10.52",
+        "TEN_CONG_KHAM": "Khám Ngoại Phẫu thuật tạo hình",
+        "PVCM": "110",
+        "BAN_KHAM": 10.52
+    },
+    {
+        "CONG_KHAM": "10.50",
+        "TEN_CONG_KHAM": "Khám Ngoại hô hấp",
+        "PVCM": "110",
+        "BAN_KHAM": 10.5
+    },
+    {
+        "CONG_KHAM": "10.04",
+        "TEN_CONG_KHAM": "Khám Ngoại tim mạch",
+        "PVCM": "110",
+        "BAN_KHAM": 10.04
+    },
+    {
+        "CONG_KHAM": "10.33",
+        "TEN_CONG_KHAM": "Khám Ung bướu",
+        "PVCM": "112",
+        "BAN_KHAM": 10.33
+    },
+    {
+        "CONG_KHAM": "10.25",
+        "TEN_CONG_KHAM": "Khám Bỏng",
+        "PVCM": "111",
+        "BAN_KHAM": 10.25
+    },
+    {
+        "CONG_KHAM": "10.24",
+        "TEN_CONG_KHAM": "Khám Chấn thương chỉnh hình",
+        "PVCM": "110.24",
+        "BAN_KHAM": 10.24
+    },
+    {
+        "CONG_KHAM": "10.23",
+        "TEN_CONG_KHAM": "Khám Ngoại thận - tiết niệu",
+        "PVCM": "110.23",
+        "BAN_KHAM": 10.23
+    },
+    {
+        "CONG_KHAM": "10.22",
+        "TEN_CONG_KHAM": "Khám Ngoại tiêu hóa",
+        "PVCM": "110.22",
+        "BAN_KHAM": 10.22
+    },
+    {
+        "CONG_KHAM": "10.21",
+        "TEN_CONG_KHAM": "Khám Ngoại lồng ngực",
+        "PVCM": "110.21",
+        "BAN_KHAM": 10.21
+    },
+    {
+        "CONG_KHAM": "10.20",
+        "TEN_CONG_KHAM": "Khám Ngoại thần kinh",
+        "PVCM": 110.2,
+        "BAN_KHAM": "10.20"
+    },
+    {
+        "CONG_KHAM": "10.19",
+        "TEN_CONG_KHAM": "Khám Ngoại tổng hợp ",
+        "PVCM": 110,
+        "BAN_KHAM": "10.19"
+    },
+    {
+        "CONG_KHAM": "02.50",
+        "TEN_CONG_KHAM": "Khám Nội Hô hấp",
+        "PVCM": 102.5,
+        "BAN_KHAM": "02.50"
+    },
+    {
+        "CONG_KHAM": "02.15",
+        "TEN_CONG_KHAM": "Khám Tâm thần",
+        "PVCM": 106,
+        "BAN_KHAM": "02.15"
+    },
+    {
+        "CONG_KHAM": "02.14",
+        "TEN_CONG_KHAM": "Khám Thần kinh",
+        "PVCM": 102.14,
+        "BAN_KHAM": "02.14"
+    },
+    {
+        "CONG_KHAM": "02.13",
+        "TEN_CONG_KHAM": "Khám Da liễu",
+        "PVCM": 105,
+        "BAN_KHAM": "02.13"
+    },
+    {
+        "CONG_KHAM": "02.11",
+        "TEN_CONG_KHAM": "Khám Truyền nhiễm",
+        "PVCM": 102.11,
+        "BAN_KHAM": "02.11"
+    },
+    {
+        "CONG_KHAM": "02.10",
+        "TEN_CONG_KHAM": "Khám Huyết học",
+        "PVCM": 102.1,
+        "BAN_KHAM": "02.10"
+    },
+    {
+        "CONG_KHAM": "02.09",
+        "TEN_CONG_KHAM": "Khám Dị ứng - Miễn dịch lâm sàng",
+        "PVCM": 102.09,
+        "BAN_KHAM": "02.09"
+    },
+    {
+        "CONG_KHAM": "02.08",
+        "TEN_CONG_KHAM": "Khám Nội tiết",
+        "PVCM": 107,
+        "BAN_KHAM": "02.08"
+    },
+    {
+        "CONG_KHAM": "02.07",
+        "TEN_CONG_KHAM": "Khám Nội thận - tiết niệu",
+        "PVCM": 102.07,
+        "BAN_KHAM": "02.07"
+    },
+    {
+        "CONG_KHAM": "02.06",
+        "TEN_CONG_KHAM": "Khám Nội cơ xương khớp",
+        "PVCM": 102.06,
+        "BAN_KHAM": "02.06"
+    },
+    {
+        "CONG_KHAM": "02.05",
+        "TEN_CONG_KHAM": "Khám Nội tiêu hóa",
+        "PVCM": 102.05,
+        "BAN_KHAM": "02.05"
+    },
+    {
+        "CONG_KHAM": "02.04",
+        "TEN_CONG_KHAM": "Khám Nội Tim mạch",
+        "PVCM": 102.04,
+        "BAN_KHAM": "02.04"
+    },
+    {
+        "CONG_KHAM": "02.03",
+        "TEN_CONG_KHAM": "Khám Nội tổng hợp",
+        "PVCM": 102,
+        "BAN_KHAM": "02.03"
+    }
+]

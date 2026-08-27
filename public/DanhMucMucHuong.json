@@ -1,0 +1,662 @@
+[
+    {
+        "MA_THE": "CC1",
+        "DIEN_GIAI": "Bà mẹ Việt Nam anh hùng, lão thành cách mạng, thương bệnh binh mất sức 81%",
+        "TY_LE": 100
+    },
+    {
+        "MA_THE": "CH1",
+        "DIEN_GIAI": "Cơ quan hành chính",
+        "TY_LE": 100
+    },
+    {
+        "MA_THE": "CK1",
+        "DIEN_GIAI": "Người có công khác",
+        "TY_LE": 100
+    },
+    {
+        "MA_THE": "CS1",
+        "DIEN_GIAI": "Công nhân cao su nghỉ việc đang hưởng trợ cấp hàng tháng theo Quyết định số 206\/CP ngày 30\/5\/1979 của Hội đồng Chính phủ (nay là Chính phủ) về chính sách đối với công nhân mới giải phóng làm nghề nặng nhọc, có hại sức khỏe nay già yếu phải thôi việc;",
+        "TY_LE": 100
+    },
+    {
+        "MA_THE": "CT1",
+        "DIEN_GIAI": "Người từ đủ 80 tuổi trở lên đang hưởng trợ cấp tuất hàng tháng;",
+        "TY_LE": 100
+    },
+    {
+        "MA_THE": "DN1",
+        "DIEN_GIAI": "Người lao động, kể cả lao động là người nước ngoài, làm việc trong các doanh nghiệp thành lập, hoạt động theo Luật Doanh nghiệp, Luật Đầu tư",
+        "TY_LE": 100
+    },
+    {
+        "MA_THE": "DS1",
+        "DIEN_GIAI": " Người dân tộc thiểu số đang sinh sống tại địa bàn các xã khu vực II, khu vực III, thôn đặc biệt khó khăn mà các xã này mà không còn trong DS xã\/vùng đặc biệt khó khăn theo QĐ của TTCP theo quy định tại điểm c khoản 2 Đ1 Nghị định 75\/2023\/NĐ-CP",
+        "TY_LE": 100
+    },
+    {
+        "MA_THE": "HC1",
+        "DIEN_GIAI": "Cán bộ công chức",
+        "TY_LE": 100
+    },
+    {
+        "MA_THE": "HT1",
+        "DIEN_GIAI": "Hưu trí, mất sức",
+        "TY_LE": 100
+    },
+    {
+        "MA_THE": "HX1",
+        "DIEN_GIAI": "Hợp tác xã, liên hiệp HTX, theo luật HTX",
+        "TY_LE": 100
+    },
+    {
+        "MA_THE": "MS1",
+        "DIEN_GIAI": "Người hưởng trợ cấp từ ngân sách",
+        "TY_LE": 100
+    },
+    {
+        "MA_THE": "NN1",
+        "DIEN_GIAI": "Người lao động làm việc trong các cơ quan, tổ chức nước ngoài hoặc tổ chức quốc tế tại Việt Nam, trừ trường hợp Điều ước quốc tế mà nước Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên tham gia có quy định khác.",
+        "TY_LE": 100
+    },
+    {
+        "MA_THE": "NO1",
+        "DIEN_GIAI": "Người bị bệnh dài ngày",
+        "TY_LE": 100
+    },
+    {
+        "MA_THE": "TB1",
+        "DIEN_GIAI": "Người hưởng trợ cấp tai nạn lao động, bệnh nghề nghiệp",
+        "TY_LE": 100
+    },
+    {
+        "MA_THE": "TE1",
+        "DIEN_GIAI": "Trẻ em dưới 6 tuổi",
+        "TY_LE": 100
+    },
+    {
+        "MA_THE": "TK1",
+        "DIEN_GIAI": "Tổ chức khác",
+        "TY_LE": 100
+    },
+    {
+        "MA_THE": "TN1",
+        "DIEN_GIAI": "Người hưởng trợ cấp thất nghiệp",
+        "TY_LE": 100
+    },
+    {
+        "MA_THE": "XB1",
+        "DIEN_GIAI": "Cán bộ xã phường hưởng trợ cấp từ BHXH",
+        "TY_LE": 100
+    },
+    {
+        "MA_THE": "XK1",
+        "DIEN_GIAI": "Cán bộ xã phường không chuyên trách",
+        "TY_LE": 100
+    },
+    {
+        "MA_THE": "XN1",
+        "DIEN_GIAI": "Cán bộ xã phường hưởng trợ cấp từ ngân sách",
+        "TY_LE": 100
+    },
+    {
+        "MA_THE": "AK2",
+        "DIEN_GIAI": "Người dân các xã an toàn khu, vùng an toàn khu cách mạng trong kháng chiến chống Pháp và chống Mỹ theo quy định tại điểm c khoản 1 Điều 1 Nghị định 75\/2023\/NĐ-CP",
+        "TY_LE": 100
+    },
+    {
+        "MA_THE": "BT2",
+        "DIEN_GIAI": "Người hưởng trợ cấp bảo trợ xã hội",
+        "TY_LE": 100
+    },
+    {
+        "MA_THE": "CB2",
+        "DIEN_GIAI": "Cựu chiến binh theo quy định pháp luật về cựu chiến binh;",
+        "TY_LE": 100
+    },
+    {
+        "MA_THE": "CH2",
+        "DIEN_GIAI": "Cơ quan hành chính",
+        "TY_LE": 100
+    },
+    {
+        "MA_THE": "CK2",
+        "DIEN_GIAI": "Người có công khác",
+        "TY_LE": 100
+    },
+    {
+        "MA_THE": "CS2",
+        "DIEN_GIAI": "Công nhân cao su nghỉ việc đang hưởng trợ cấp hàng tháng theo Quyết định số 206\/CP ngày 30\/5\/1979 của Hội đồng Chính phủ (nay là Chính phủ) về chính sách đối với công nhân mới giải phóng làm nghề nặng nhọc, có hại sức khỏe nay già yếu phải thôi việc;",
+        "TY_LE": 100
+    },
+    {
+        "MA_THE": "CT2",
+        "DIEN_GIAI": "Người từ đủ 80 tuổi trở lên đang hưởng trợ cấp tuất hàng tháng;",
+        "TY_LE": 100
+    },
+    {
+        "MA_THE": "CT2",
+        "DIEN_GIAI": "Người từ đủ 80 tuổi trở lên đang hưởng trợ cấp tuất hàng tháng;",
+        "TY_LE": 100
+    },
+    {
+        "MA_THE": "DK2",
+        "DIEN_GIAI": "Người đang sinh sống tại vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn;",
+        "TY_LE": 100
+    },
+    {
+        "MA_THE": "DN2",
+        "DIEN_GIAI": "Người lao động, kể cả lao động là người nước ngoài, làm việc trong các doanh nghiệp thành lập, hoạt động theo Luật Doanh nghiệp, Luật Đầu tư",
+        "TY_LE": 100
+    },
+    {
+        "MA_THE": "DS2",
+        "DIEN_GIAI": " Người dân tộc thiểu số đang sinh sống tại địa bàn các xã khu vực II, khu vực III, thôn đặc biệt khó khăn mà các xã này mà không còn trong DS xã\/vùng đặc biệt khó khăn theo QĐ của TTCP theo quy định tại điểm c khoản 2 Đ1 Nghị định 75\/2023\/NĐ-CP",
+        "TY_LE": 100
+    },
+    {
+        "MA_THE": "DT2",
+        "DIEN_GIAI": "Người dân tộc thiểu số đang sinh sống tại vùng có điều kiện kinh tế - xã hội khó khăn, đặc biệt khó khăn;",
+        "TY_LE": 100
+    },
+    {
+        "MA_THE": "GB2",
+        "DIEN_GIAI": "Người thuộc hộ gia đình làm nông nghiệp, lâm nghiệp, ngư nghiệp và diêm nghiệp có mức sống trung bình theo quy định của pháp luật;",
+        "TY_LE": 100
+    },
+    {
+        "MA_THE": "GD2",
+        "DIEN_GIAI": "Người hộ gia đình làm nông, lâm, ngư, diêm nghiệp.",
+        "TY_LE": 100
+    },
+    {
+        "MA_THE": "HC2",
+        "DIEN_GIAI": "Cán bộ công chức",
+        "TY_LE": 100
+    },
+    {
+        "MA_THE": "HD2",
+        "DIEN_GIAI": "Đại biểu quốc hội",
+        "TY_LE": 100
+    },
+    {
+        "MA_THE": "HG2",
+        "DIEN_GIAI": "Người hiến tạng cơ thể",
+        "TY_LE": 100
+    },
+    {
+        "MA_THE": "HN2",
+        "DIEN_GIAI": "Người thuộc hộ nghèo, dân tộc thiểu số",
+        "TY_LE": 100
+    },
+    {
+        "MA_THE": "HT2",
+        "DIEN_GIAI": "Hưu trí, mất sức",
+        "TY_LE": 100
+    },
+    {
+        "MA_THE": "HX2",
+        "DIEN_GIAI": "Hợp tác xã, liên hiệp HTX, theo luật HTX",
+        "TY_LE": 100
+    },
+    {
+        "MA_THE": "KC2",
+        "DIEN_GIAI": "Người tham gia kháng chiến theo quy định pháp luật về người có công với cách mạng được quy định tại các Quyết định của Thủ tướng Chính phủ.",
+        "TY_LE": 100
+    },
+    {
+        "MA_THE": "KC2",
+        "DIEN_GIAI": "Người tham gia kháng chiến theo quy định pháp luật về người có công với cách mạng được quy định tại các Quyết định của Thủ tướng Chính phủ.",
+        "TY_LE": 100
+    },
+    {
+        "MA_THE": "MS2",
+        "DIEN_GIAI": "Người hưởng trợ cấp từ ngân sách",
+        "TY_LE": 100
+    },
+    {
+        "MA_THE": "NN2",
+        "DIEN_GIAI": "Người lao động làm việc trong các cơ quan, tổ chức nước ngoài hoặc tổ chức quốc tế tại Việt Nam, trừ trường hợp Điều ước quốc tế mà nước Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên tham gia có quy định khác.",
+        "TY_LE": 100
+    },
+    {
+        "MA_THE": "NO2",
+        "DIEN_GIAI": "Người bị bệnh dài ngày",
+        "TY_LE": 100
+    },
+    {
+        "MA_THE": "PV2",
+        "DIEN_GIAI": "Người phục vụ người có công với cách mạng,  người phục vụ thương binh, bệnh binh suy giảm khả năng lao động từ 81% trở lên ở gia đình, người phục vụ người hoạt động kháng chiến bị nhiễm chất độc hóa học",
+        "TY_LE": 100
+    },
+    {
+        "MA_THE": "QN2",
+        "DIEN_GIAI": "Sỹ quan, quân nhân chuyên nghiệp, hạ sỹ quan, binh sỹ quân đội đang tại ngũ; người làm công tác cơ yếu hưởng lương như đối với quân nhân; học viên cơ yếu được hưởng chế độ, chính sách theo chế độ, chính sách đối với học viên ở các trường quân đội;",
+        "TY_LE": 100
+    },
+    {
+        "MA_THE": "TA2",
+        "DIEN_GIAI": "Thân nhân công an",
+        "TY_LE": 100
+    },
+    {
+        "MA_THE": "TB2",
+        "DIEN_GIAI": "Người hưởng trợ cấp tai nạn lao động, bệnh nghề nghiệp",
+        "TY_LE": 100
+    },
+    {
+        "MA_THE": "TC2",
+        "DIEN_GIAI": "Thân nhân người có công",
+        "TY_LE": 100
+    },
+    {
+        "MA_THE": "TG2",
+        "DIEN_GIAI": "Vợ hoặc chồng liệt sĩ lấy chồng hoặc vợ khác đang hưởng trợ cấp hằng tháng theo quy định tại điểm c khoản 1 Điều 183  Nghị định 131\/2021\/NĐ-CP",
+        "TY_LE": 100
+    },
+    {
+        "MA_THE": "TK2",
+        "DIEN_GIAI": "Tổ chức khác",
+        "TY_LE": 100
+    },
+    {
+        "MA_THE": "TN2",
+        "DIEN_GIAI": "Người hưởng trợ cấp thất nghiệp",
+        "TY_LE": 100
+    },
+    {
+        "MA_THE": "TQ2",
+        "DIEN_GIAI": "Thân nhân quân đội",
+        "TY_LE": 100
+    },
+    {
+        "MA_THE": "TS2",
+        "DIEN_GIAI": "Thân nhân của người có công với cách mạng là cha đẻ, mẹ đẻ, vợ hoặc chồng, con của liệt sỹ; người có công nuôi dưỡng liệt sỹ;",
+        "TY_LE": 100
+    },
+    {
+        "MA_THE": "TY2",
+        "DIEN_GIAI": "Thân nhân cơ yếu",
+        "TY_LE": 100
+    },
+    {
+        "MA_THE": "XB2",
+        "DIEN_GIAI": "Cán bộ xã phường hưởng trợ cấp từ BHXH",
+        "TY_LE": 100
+    },
+    {
+        "MA_THE": "XD2",
+        "DIEN_GIAI": "Người đang sinh sống tại xã đảo, huyện đảo;",
+        "TY_LE": 100
+    },
+    {
+        "MA_THE": "XK2",
+        "DIEN_GIAI": "Cán bộ xã phường không chuyên trách",
+        "TY_LE": 100
+    },
+    {
+        "MA_THE": "XN2",
+        "DIEN_GIAI": "Cán bộ xã phường hưởng trợ cấp từ ngân sách",
+        "TY_LE": 100
+    },
+    {
+        "MA_THE": "BA3",
+        "DIEN_GIAI": "Người tham gia lực lượng tham gia bảo vệ an ninh, trật tự ở cơ sở (Quyết định 1018\/QĐ-BHXH ngày 24\/7\/2024 của BHXHVN)",
+        "TY_LE": 95
+    },
+    {
+        "MA_THE": "CH3",
+        "DIEN_GIAI": "Cơ quan hành chính",
+        "TY_LE": 95
+    },
+    {
+        "MA_THE": "CN3",
+        "DIEN_GIAI": "Người thuôc hộ cận nghèo",
+        "TY_LE": 95
+    },
+    {
+        "MA_THE": "CS3",
+        "DIEN_GIAI": "Công nhân cao su nghỉ việc đang hưởng trợ cấp hàng tháng theo Quyết định số 206\/CP ngày 30\/5\/1979 của Hội đồng Chính phủ (nay là Chính phủ) về chính sách đối với công nhân mới giải phóng làm nghề nặng nhọc, có hại sức khỏe nay già yếu phải thôi việc;",
+        "TY_LE": 95
+    },
+    {
+        "MA_THE": "CT3",
+        "DIEN_GIAI": "Người từ đủ 80 tuổi trở lên đang hưởng trợ cấp tuất hàng tháng;",
+        "TY_LE": 95
+    },
+    {
+        "MA_THE": "DN3",
+        "DIEN_GIAI": "Người lao động, kể cả lao động là người nước ngoài, làm việc trong các doanh nghiệp thành lập, hoạt động theo Luật Doanh nghiệp, Luật Đầu tư",
+        "TY_LE": 95
+    },
+    {
+        "MA_THE": "DS3",
+        "DIEN_GIAI": " Người dân tộc thiểu số đang sinh sống tại địa bàn các xã khu vực II, khu vực III, thôn đặc biệt khó khăn mà các xã này mà không còn trong DS xã\/vùng đặc biệt khó khăn theo QĐ của TTCP theo quy định tại điểm c khoản 2 Đ1 Nghị định 75\/2023\/NĐ-CP",
+        "TY_LE": 95
+    },
+    {
+        "MA_THE": "HC3",
+        "DIEN_GIAI": "Cán bộ công chức",
+        "TY_LE": 95
+    },
+    {
+        "MA_THE": "HD3",
+        "DIEN_GIAI": "Đại biểu quốc hội",
+        "TY_LE": 95
+    },
+    {
+        "MA_THE": "HG3",
+        "DIEN_GIAI": "Người hiến tạng cơ thể",
+        "TY_LE": 95
+    },
+    {
+        "MA_THE": "HK3",
+        "DIEN_GIAI": "người thuộc hộ nghèo đa chiều không thuộc\ntrường hợp được cấp mã đối tượng HN",
+        "TY_LE": 95
+    },
+    {
+        "MA_THE": "HS3",
+        "DIEN_GIAI": "Học sinh, sinh viên",
+        "TY_LE": 95
+    },
+    {
+        "MA_THE": "HT3",
+        "DIEN_GIAI": "Hưu trí, mất sức",
+        "TY_LE": 95
+    },
+    {
+        "MA_THE": "HX3",
+        "DIEN_GIAI": "Hợp tác xã, liên hiệp HTX, theo luật HTX",
+        "TY_LE": 95
+    },
+    {
+        "MA_THE": "KC3",
+        "DIEN_GIAI": "Người tham gia kháng chiến theo quy định pháp luật về người có công với cách mạng được quy định tại các Quyết định của Thủ tướng Chính phủ.",
+        "TY_LE": 95
+    },
+    {
+        "MA_THE": "LS3",
+        "DIEN_GIAI": "Người nước ngoài đang học tập tại Việt Nam được cấp học bổng từ Ngân sách của Nhà nước Việt Nam;",
+        "TY_LE": 95
+    },
+    {
+        "MA_THE": "MS3",
+        "DIEN_GIAI": "Người hưởng trợ cấp từ ngân sách",
+        "TY_LE": 95
+    },
+    {
+        "MA_THE": "NN3",
+        "DIEN_GIAI": "Người lao động làm việc trong các cơ quan, tổ chức nước ngoài hoặc tổ chức quốc tế tại Việt Nam, trừ trường hợp Điều ước quốc tế mà nước Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên tham gia có quy định khác.",
+        "TY_LE": 95
+    },
+    {
+        "MA_THE": "NO3",
+        "DIEN_GIAI": "Người bị bệnh dài ngày",
+        "TY_LE": 95
+    },
+    {
+        "MA_THE": "PV3",
+        "DIEN_GIAI": "Người phục vụ người có công với cách mạng,  người phục vụ thương binh, bệnh binh suy giảm khả năng lao động từ 81% trở lên ở gia đình, người phục vụ người hoạt động kháng chiến bị nhiễm chất độc hóa học",
+        "TY_LE": 95
+    },
+    {
+        "MA_THE": "SV3",
+        "DIEN_GIAI": "Sinh viên đang theo học tại các cơ sở giáo dục và đào tạo, cơ sở dạy nghề thuộc hệ thống giáo dục quốc dân;",
+        "TY_LE": 95
+    },
+    {
+        "MA_THE": "TA3",
+        "DIEN_GIAI": "Thân nhân công an",
+        "TY_LE": 95
+    },
+    {
+        "MA_THE": "TB3",
+        "DIEN_GIAI": "Người hưởng trợ cấp tai nạn lao động, bệnh nghề nghiệp",
+        "TY_LE": 95
+    },
+    {
+        "MA_THE": "TC3",
+        "DIEN_GIAI": "Thân nhân người có công",
+        "TY_LE": 95
+    },
+    {
+        "MA_THE": "TG3",
+        "DIEN_GIAI": "Vợ hoặc chồng liệt sĩ lấy chồng hoặc vợ khác đang hưởng trợ cấp hằng tháng theo quy định tại điểm c khoản 1 Điều 183  Nghị định 131\/2021\/NĐ-CP",
+        "TY_LE": 95
+    },
+    {
+        "MA_THE": "TK3",
+        "DIEN_GIAI": "Tổ chức khác",
+        "TY_LE": 95
+    },
+    {
+        "MA_THE": "TN3",
+        "DIEN_GIAI": "Người hưởng trợ cấp thất nghiệp",
+        "TY_LE": 95
+    },
+    {
+        "MA_THE": "TQ3",
+        "DIEN_GIAI": "Thân nhân quân đội",
+        "TY_LE": 95
+    },
+    {
+        "MA_THE": "TY3",
+        "DIEN_GIAI": "Thân nhân cơ yếu",
+        "TY_LE": 95
+    },
+    {
+        "MA_THE": "XB3",
+        "DIEN_GIAI": "Cán bộ xã phường hưởng trợ cấp từ BHXH",
+        "TY_LE": 95
+    },
+    {
+        "MA_THE": "XK3",
+        "DIEN_GIAI": "Cán bộ xã phường không chuyên trách",
+        "TY_LE": 95
+    },
+    {
+        "MA_THE": "XN3",
+        "DIEN_GIAI": "Cán bộ xã phường hưởng trợ cấp từ ngân sách",
+        "TY_LE": 95
+    },
+    {
+        "MA_THE": "BA4",
+        "DIEN_GIAI": "Người tham gia lực lượng tham gia bảo vệ an ninh, trật tự ở cơ sở (Quyết định 1018\/QĐ-BHXH ngày 24\/7\/2024 của BHXHVN)",
+        "TY_LE": 80
+    },
+    {
+        "MA_THE": "CH4",
+        "DIEN_GIAI": "Cơ quan hành chính",
+        "TY_LE": 80
+    },
+    {
+        "MA_THE": "CS4",
+        "DIEN_GIAI": "Công nhân cao su nghỉ việc đang hưởng trợ cấp hàng tháng theo Quyết định số 206\/CP ngày 30\/5\/1979 của Hội đồng Chính phủ (nay là Chính phủ) về chính sách đối với công nhân mới giải phóng làm nghề nặng nhọc, có hại sức khỏe nay già yếu phải thôi việc;",
+        "TY_LE": 80
+    },
+    {
+        "MA_THE": "CT4",
+        "DIEN_GIAI": "Người từ đủ 80 tuổi trở lên đang hưởng trợ cấp tuất hàng tháng;",
+        "TY_LE": 80
+    },
+    {
+        "MA_THE": "DN4",
+        "DIEN_GIAI": "Người lao động, kể cả lao động là người nước ngoài, làm việc trong các doanh nghiệp thành lập, hoạt động theo Luật Doanh nghiệp, Luật Đầu tư",
+        "TY_LE": 80
+    },
+    {
+        "MA_THE": "GB4",
+        "DIEN_GIAI": "Người thuộc hộ gia đình làm nông nghiệp, lâm nghiệp, ngư nghiệp và diêm nghiệp có mức sống trung bình theo quy định của pháp luật;",
+        "TY_LE": 80
+    },
+    {
+        "MA_THE": "GD4",
+        "DIEN_GIAI": "Người hộ gia đình làm nông, lâm, ngư, diêm nghiệp.",
+        "TY_LE": 80
+    },
+    {
+        "MA_THE": "HC4",
+        "DIEN_GIAI": "Cán bộ công chức",
+        "TY_LE": 80
+    },
+    {
+        "MA_THE": "HD4",
+        "DIEN_GIAI": "Đại biểu quốc hội",
+        "TY_LE": 80
+    },
+    {
+        "MA_THE": "HG4",
+        "DIEN_GIAI": "Người hiến tạng cơ thể",
+        "TY_LE": 80
+    },
+    {
+        "MA_THE": "HS4",
+        "DIEN_GIAI": "Học sinh, sinh viên",
+        "TY_LE": 80
+    },
+    {
+        "MA_THE": "HX4",
+        "DIEN_GIAI": "Hợp tác xã, liên hiệp HTX, theo luật HTX",
+        "TY_LE": 80
+    },
+    {
+        "MA_THE": "KC4",
+        "DIEN_GIAI": "Người tham gia kháng chiến theo quy định pháp luật về người có công với cách mạng được quy định tại các Quyết định của Thủ tướng Chính phủ.",
+        "TY_LE": 80
+    },
+    {
+        "MA_THE": "KT4",
+        "DIEN_GIAI": "Người hoạt động không chuyên trách ở thôn, tổ dân phố",
+        "TY_LE": 80
+    },
+    {
+        "MA_THE": "LH4",
+        "DIEN_GIAI": "Người đang hưởng trợ cấp hưu trí xã hội hằng tháng",
+        "TY_LE": 80
+    },
+    {
+        "MA_THE": "LS4",
+        "DIEN_GIAI": "Người nước ngoài đang học tập tại Việt Nam được cấp học bổng từ Ngân sách của Nhà nước Việt Nam;",
+        "TY_LE": 80
+    },
+    {
+        "MA_THE": "MS4",
+        "DIEN_GIAI": "Người hưởng trợ cấp từ ngân sách",
+        "TY_LE": 80
+    },
+    {
+        "MA_THE": "ND4",
+        "DIEN_GIAI": "người được phong tặng danh hiệu nghệ nhân\nnhân dân, nghệ nhân ưu tú",
+        "TY_LE": 80
+    },
+    {
+        "MA_THE": "NN4",
+        "DIEN_GIAI": "Người lao động làm việc trong các cơ quan, tổ chức nước ngoài hoặc tổ chức quốc tế tại Việt Nam, trừ trường hợp Điều ước quốc tế mà nước Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên tham gia có quy định khác.",
+        "TY_LE": 80
+    },
+    {
+        "MA_THE": "NO4",
+        "DIEN_GIAI": "Người bị bệnh dài ngày",
+        "TY_LE": 80
+    },
+    {
+        "MA_THE": "PV4",
+        "DIEN_GIAI": "Người phục vụ người có công với cách mạng,  người phục vụ thương binh, bệnh binh suy giảm khả năng lao động từ 81% trở lên ở gia đình, người phục vụ người hoạt động kháng chiến bị nhiễm chất độc hóa học",
+        "TY_LE": 80
+    },
+    {
+        "MA_THE": "SV4",
+        "DIEN_GIAI": "Sinh viên đang theo học tại các cơ sở giáo dục và đào tạo, cơ sở dạy nghề thuộc hệ thống giáo dục quốc dân;",
+        "TY_LE": 80
+    },
+    {
+        "MA_THE": "TA4",
+        "DIEN_GIAI": "Thân nhân công an",
+        "TY_LE": 80
+    },
+    {
+        "MA_THE": "TB4",
+        "DIEN_GIAI": "Người hưởng trợ cấp tai nạn lao động, bệnh nghề nghiệp",
+        "TY_LE": 80
+    },
+    {
+        "MA_THE": "TD4",
+        "DIEN_GIAI": "Thân nhân của công nhân công\nan đang phục vụ trong Công an nhân dân.",
+        "TY_LE": 80
+    },
+    {
+        "MA_THE": "TH4",
+        "DIEN_GIAI": "chức sắc, chức việc, nhà tu\nhành",
+        "TY_LE": 80
+    },
+    {
+        "MA_THE": "TK4",
+        "DIEN_GIAI": "Tổ chức khác",
+        "TY_LE": 80
+    },
+    {
+        "MA_THE": "TN4",
+        "DIEN_GIAI": "Người hưởng trợ cấp thất nghiệp",
+        "TY_LE": 80
+    },
+    {
+        "MA_THE": "TQ4",
+        "DIEN_GIAI": "Thân nhân quân đội",
+        "TY_LE": 80
+    },
+    {
+        "MA_THE": "TU4",
+        "DIEN_GIAI": "Thân nhân của người làm công\ntác khác trong tổ chức cơ yếu.",
+        "TY_LE": 80
+    },
+    {
+        "MA_THE": "TV4",
+        "DIEN_GIAI": "Thân nhân công nhân và viên chức quốc phòng",
+        "TY_LE": 80
+    },
+    {
+        "MA_THE": "TY4",
+        "DIEN_GIAI": "Thân nhân cơ yếu",
+        "TY_LE": 80
+    },
+    {
+        "MA_THE": "XB4",
+        "DIEN_GIAI": "Cán bộ xã phường hưởng trợ cấp từ BHXH",
+        "TY_LE": 80
+    },
+    {
+        "MA_THE": "XK4",
+        "DIEN_GIAI": "Cán bộ xã phường không chuyên trách",
+        "TY_LE": 80
+    },
+    {
+        "MA_THE": "XN4",
+        "DIEN_GIAI": "Cán bộ xã phường hưởng trợ cấp từ ngân sách",
+        "TY_LE": 80
+    },
+    {
+        "MA_THE": "CA5",
+        "DIEN_GIAI": "Sỹ quan, hạ sỹ quan nghiệp vụ và sỹ quan, hạ sỹ quan chuyên môn, kỹ thuật, hạ sĩ quan, chiến sĩ đang phục vụ có thời hạn trong lực lượng Công an nhân dân",
+        "TY_LE": 100
+    },
+    {
+        "MA_THE": "CY5",
+        "DIEN_GIAI": "Người làm công tác cơ yếu hưởng lương như đối với quân nhân do các Bộ, Ngành và Ủy ban nhân dân các cấp quản lý, trừ người làm công tác cơ yếu được cấp mã đối tượng QN và CA;",
+        "TY_LE": 100
+    },
+    {
+        "MA_THE": "QD5",
+        "DIEN_GIAI": "Dân quân thường trực",
+        "TY_LE": 100
+    },
+    {
+        "MA_THE": "QN5",
+        "DIEN_GIAI": "Sỹ quan, quân nhân chuyên nghiệp, hạ sỹ quan, binh sỹ quân đội đang tại ngũ; người làm công tác cơ yếu hưởng lương như đối với quân nhân; học viên cơ yếu được hưởng chế độ, chính sách theo chế độ, chính sách đối với học viên ở các trường quân đội;",
+        "TY_LE": 100
+    },
+    {
+        "MA_THE": "LH2",
+        "DIEN_GIAI": "Người đang hưởng trợ cấp hưu trí xã hội hằng tháng",
+        "TY_LE": 100
+    }
+]
