@@ -551,17 +551,33 @@ const DoiChieu01BH = () => {
                     </div>
                 </section>
 
-                <footer className="border-t border-slate-200 py-8 mt-12 bg-white/50 backdrop-blur-sm rounded-t-3xl">
-                    <div className="flex flex-col items-center gap-4">
-                        <div className="flex items-center gap-2  font-medium">
-                            <CheckCircle2 size={16} className="text-emerald-500" />
-                            <span>Hệ thống hoạt động ổn định</span>
+                <footer className="pt-6 pb-4">
+
+                    <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
+
+                        <div className="flex items-center gap-2">
+
                         </div>
-                        <p className="text-center text-slate-500 text-[11px] font-bold uppercase tracking-[0.2em] max-w-2xl leading-relaxed">
-                            Bản quyền thuộc về <span className="text-blue-600">Nguyễn Quang Hoài Nam (IT - HCTH)</span>
-                            <br />Phòng khám Đa khoa Đông Hiếu © 2026
-                        </p>
+
+
+                        <div className="text-center sm:text-right">
+
+                            <p className="text-[10px] font-bold uppercase tracking-wider text-slate-400">
+                                Phát triển bởi
+                            </p>
+
+                            <p className="mt-0.5 text-xs font-bold text-[#3F8A3E]">
+                                Nguyễn Quang Hoài Nam · IT - HCTH
+                            </p>
+
+                            <p className="text-[10px] text-slate-400">
+                                Phòng khám Đa khoa Đông Hiếu © 2026
+                            </p>
+
+                        </div>
+
                     </div>
+
                 </footer>
             </div>
         </div>

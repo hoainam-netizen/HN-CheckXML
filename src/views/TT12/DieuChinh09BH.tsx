@@ -1725,6 +1725,34 @@ const DieuChinh09BH: React.FC = () => {
       )}
 
       {/* Footer spacing */}
+      <footer className="pt-6 pb-4">
+
+                    <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
+
+                        <div className="flex items-center gap-2">
+
+                        </div>
+
+
+                        <div className="text-center sm:text-right">
+
+                            <p className="text-[10px] font-bold uppercase tracking-wider text-slate-400">
+                                Phát triển bởi
+                            </p>
+
+                            <p className="mt-0.5 text-xs font-bold text-[#3F8A3E]">
+                                Nguyễn Quang Hoài Nam · IT - HCTH
+                            </p>
+
+                            <p className="text-[10px] text-slate-400">
+                                Phòng khám Đa khoa Đông Hiếu © 2026
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </footer>
       <div className="h-2" />
     </div>
   </div>
