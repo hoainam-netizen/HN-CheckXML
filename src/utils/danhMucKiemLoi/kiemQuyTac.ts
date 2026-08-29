@@ -1458,19 +1458,7 @@ export function validateXml1RecordRules(
         );
       }
     } else if (record.MA_LOAI_KCB !== '01' && record.MA_LOAI_KCB !== '02') {
-      errors.push(
-        buildValidationError(
-          'XML1',
-          rowIndex,
-          'MA_BENH_CHINH',
-          'Sai mã loại KCB (Bệnh thường)',
-          `Bệnh thường (${maBenhChinh}) mã loại KCB = 02 đối với BA Ngoại trú.`,
-          'error',
-          patientInfo,
-          undefined,
-          'quy-tac',
-        ),
-      );
+      
     }
   }
 

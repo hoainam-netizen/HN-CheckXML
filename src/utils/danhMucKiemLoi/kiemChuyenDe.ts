@@ -2236,6 +2236,104 @@ export function validateInterRecords(
     }
   });
 
+  // --- Kiểm tra NGAY_VAO và NGAY_RA ngoài giờ hoạt động (XML1) - Chuyên đề Thời gian ngoài giấy phép ---
+  xml1Records.forEach((record, rowIndex) => {
+    const defaultKhungGio = {
+      sang: { start: '07:30', end: '11:30' },
+      chieu: { start: '13:30', end: '17:00' },
+    };
+
+    // Kết hợp khung giờ từ hệ thống với khung giờ mặc định
+    const settings = {
+      sang: {
+        start: khungGioKCB?.sang?.start || defaultKhungGio.sang.start,
+        end: khungGioKCB?.sang?.end || defaultKhungGio.sang.end,
+      },
+      chieu: {
+        start: khungGioKCB?.chieu?.start || defaultKhungGio.chieu.start,
+        end: khungGioKCB?.chieu?.end || defaultKhungGio.chieu.end,
+      },
+    };
+
+    const patientInfo = getPatientInfo(record);
+
+    // Hàm parse thời gian từ chuỗi HH:mm
+    const parseToMinutes = (timeStr: string) => {
+      if (!timeStr || typeof timeStr !== 'string') return 0;
+      const [h, m] = timeStr.split(':').map(Number);
+      return h * 60 + m;
+    };
+
+    const sangStart = parseToMinutes(settings.sang.start);
+    const sangEnd = parseToMinutes(settings.sang.end);
+    const chieuStart = parseToMinutes(settings.chieu.start);
+    const chieuEnd = parseToMinutes(settings.chieu.end);
+
+    const outOfTimeDetails: { field: string; timeStr: string; value: string }[] = [];
+
+    // Kiểm tra NGAY_VAO
+    const ngayVao = record.NGAY_VAO?.toString();
+    if (ngayVao && ngayVao.length >= 12) {
+      const hh = parseInt(ngayVao.slice(8, 10), 10);
+      const mm = parseInt(ngayVao.slice(10, 12), 10);
+      const totalMinutes = hh * 60 + mm;
+
+      const inSang = totalMinutes >= sangStart && totalMinutes <= sangEnd;
+      const inChieu = totalMinutes >= chieuStart && totalMinutes <= chieuEnd;
+
+      if (!inSang && !inChieu) {
+        outOfTimeDetails.push({
+          field: 'NGAY_VAO',
+          timeStr: formatDateTime(ngayVao),
+          value: ngayVao,
+        });
+      }
+    }
+
+    // Kiểm tra NGAY_RA
+    const ngayRa = record.NGAY_RA?.toString();
+    if (ngayRa && ngayRa.length >= 12) {
+      const hh = parseInt(ngayRa.slice(8, 10), 10);
+      const mm = parseInt(ngayRa.slice(10, 12), 10);
+      const totalMinutes = hh * 60 + mm;
+
+      const inSang = totalMinutes >= sangStart && totalMinutes <= sangEnd;
+      const inChieu = totalMinutes >= chieuStart && totalMinutes <= chieuEnd;
+
+      if (!inSang && !inChieu) {
+        outOfTimeDetails.push({
+          field: 'NGAY_RA',
+          timeStr: formatDateTime(ngayRa),
+          value: ngayRa,
+        });
+      }
+    }
+
+    if (outOfTimeDetails.length > 0) {
+      const detailText = outOfTimeDetails
+        .map((d) => `${d.field} (${d.timeStr})`)
+        .join(', ');
+
+      const khungGioText = `Sáng (${settings.sang.start} - ${settings.sang.end}), Chiều (${settings.chieu.start} - ${settings.chieu.end})`;
+
+      errors.push({
+        sheetName: 'XML1',
+        rowIndex,
+        fieldName: outOfTimeDetails.map((d) => d.field).join(', '),
+        errorCode: 'Thời gian vào/ra ngoài giờ hoạt động',
+        errorMessage: `${detailText} nằm ngoài giờ hành chính của cơ sở (giấy phép hoạt động): ${khungGioText}`,
+        severity: 'warning',
+        topic: 'chuyen-de',
+        ...patientInfo,
+        extra: {
+          NGAY_VAO: ngayVao,
+          NGAY_RA: ngayRa,
+          KHUNG_GIO: `${settings.sang.start} - ${settings.sang.end}, ${settings.chieu.start} - ${settings.chieu.end}`,
+        },
+      });
+    }
+  });
+
   // --- Kiểm tra thiếu XML14 khi có NGAY_TAI_KHAM ---
   xml1Records.forEach((record, rowIndex) => {
     const maLk = record.MA_LK?.toString().trim();
