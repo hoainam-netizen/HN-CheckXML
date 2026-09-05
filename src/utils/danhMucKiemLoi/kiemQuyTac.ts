@@ -13,7 +13,6 @@ import { ICD10 } from '../interface/danhMucICD10';
 import { DanhMucNhanVien } from 'src/views/danhMuc/DanhMucNhanVien';
 import { DanhMucThuoc } from 'src/views/danhMuc/DanhMucThuoc';
 import { DanhMucTrangThietBi } from 'src/views/danhMuc/DanhMucTrangThietBi';
-import { BenhManTinh } from '../interface/danhMucBenhManTinh';
 
 export interface ValidationError {
   sheetName: string;
@@ -218,22 +217,44 @@ export const validationRules: {
       maxLength: 6,
       customValidation: (value) => {
         if (!value) return null;
+
+        // Số nguyên hoặc số thập phân tối đa 2 chữ số
+        if (!/^\d+(?:\.\d{1,2})?$/.test(value)) {
+          return 'Cân nặng không hợp lệ (số thập phân tối đa 2 chữ số).';
+        }
+
         const f = parseFloat(value);
-        return isNaN(f) || f < 0 || f.toFixed(2) !== value
-          ? 'Cân nặng không hợp lệ (số thập phân 2 chữ số).'
-          : null;
+
+        if (!Number.isFinite(f) || f < 0) {
+          return 'Cân nặng không hợp lệ.';
+        }
+
+        return null;
       },
     },
+
     CAN_NANG_CON: {
       maxLength: 100,
       customValidation: (value) => {
         if (!value) return null;
+
         const parts = value.split(';');
+
         for (const w of parts) {
-          const f = parseFloat(w);
-          if (isNaN(f) || f < 0 || f.toFixed(2) !== w)
-            return 'Cân nặng con không hợp lệ (số thập phân 2 chữ số).';
+          const weight = w.trim();
+
+          // Số nguyên hoặc số thập phân tối đa 2 chữ số
+          if (!/^\d+(?:\.\d{1,2})?$/.test(weight)) {
+            return 'Cân nặng con không hợp lệ (số thập phân tối đa 2 chữ số).';
+          }
+
+          const f = parseFloat(weight);
+
+          if (!Number.isFinite(f) || f < 0) {
+            return 'Cân nặng con không hợp lệ.';
+          }
         }
+
         return null;
       },
     },
@@ -735,8 +756,7 @@ export const validationRules: {
           [key: string]: string | undefined;
         }
         const hasNhom2: boolean = (xml3List as Xml3Record[]).some(
-          (r: Xml3Record) =>
-            r.MA_NHOM === '2' && r.MA_DICH_VU === record.MA_DICH_VU,
+          (r: Xml3Record) => r.MA_NHOM === '2' && r.MA_DICH_VU === record.MA_DICH_VU,
         );
         if (hasNhom2 && !value) {
           return 'KET_LUAN không được để trống nếu có MA_NHOM = 2 trong XML3.';
@@ -1332,7 +1352,6 @@ export function validateXml1RecordRules(
   errors: ValidationError[],
   cskcbList: Facility[],
   validYhctCodes: BenhYHCT[],
-  validBenhManTinh: BenhManTinh[],
   icd10List: ICD10[],
 ): void {
   const maDkbd = record.MA_DKBD?.trim();
@@ -1431,42 +1450,14 @@ export function validateXml1RecordRules(
     }
   }
 
-  if (record.MA_BENH_CHINH && record.MA_LOAI_KCB !== '01') {
-    const maBenhChinh = record.MA_BENH_CHINH.trim();
-    const isChronic = validBenhManTinh.some((item) => {
-      const icdList = item.mabenh_icd10
-        .split(';')
-        .map((code) => code.trim())
-        .filter(Boolean);
-      return icdList.includes(maBenhChinh);
-    });
-
-    if (isChronic) {
-      if (record.MA_LOAI_KCB !== '05' && record.MA_LOAI_KCB !== '08') {
-        errors.push(
-          buildValidationError(
-            'XML1',
-            rowIndex,
-            'MA_BENH_CHINH',
-            'Sai mã loại KCB (Bệnh mãn tính)',
-            `Bệnh mãn tính (${maBenhChinh}) mã loại KCB phải là 05 hoặc 08.`,
-            'error',
-            patientInfo,
-            undefined,
-            'quy-tac',
-          ),
-        );
-      }
-    } else if (record.MA_LOAI_KCB !== '01' && record.MA_LOAI_KCB !== '02') {
-      
-    }
-  }
-
   const maBenhCheck = ['MA_BENH_CHINH', 'MA_BENH_KT'];
   for (const field of maBenhCheck) {
     const rawValue = record[field];
     if (rawValue) {
-      const codes = rawValue.split(';').map((m) => m.trim()).filter(Boolean);
+      const codes = rawValue
+        .split(';')
+        .map((m) => m.trim())
+        .filter(Boolean);
       for (const code of codes) {
         const isValid = icd10List.some((item) => item.Ma_Benh === code);
         if (!isValid) {
@@ -1616,7 +1607,8 @@ export function validateXml3RecordRules(
   if (maMayRaw != null) {
     const value = String(maMayRaw).trim();
     if (value !== '') {
-      const regex = /^(?:[A-ZÀ-Ỹ]{2,3})\.(?:1|2|3(?:\[[^\[\]]+\])?)\.[A-Za-z0-9\-\/_]+(?:;[A-Za-z0-9\-\/_]+)*$/;
+      const regex =
+        /^(?:[A-ZÀ-Ỹ]{2,3})\.(?:1|2|3(?:\[[^\[\]]+\])?)\.[A-Za-z0-9\-\/_]+(?:;[A-Za-z0-9\-\/_]+)*$/;
       if (!regex.test(value)) {
         errors.push(
           buildValidationError(

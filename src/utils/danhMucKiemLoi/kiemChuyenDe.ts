@@ -90,7 +90,6 @@ export function validateRecord(
         errors,
         cskcbList,
         validYhctCodes,
-        validBenhManTinh,
         icd10List,
       );
     },
@@ -661,6 +660,7 @@ export function validateInterRecords(
   danhMucCauHinhDVKT: CauHinhDichVu[],
   khungGioKCB?: KhungGio,
   tbytList?: DanhMucTrangThietBi[],
+  dvktBatBuocMaMay: Array<{ MA_DVKT?: string }> = [],
 ): ValidationError[] {
   const errors: ValidationError[] = [];
 
@@ -676,6 +676,11 @@ export function validateInterRecords(
   const danhMucArray: string[] = Array.isArray(danhMucBoCheckMaMay)
     ? danhMucBoCheckMaMay
     : danhMucBoCheckMaMay?.list || [];
+  const dvktBatBuocMaMaySet = new Set(
+    (Array.isArray(dvktBatBuocMaMay) ? dvktBatBuocMaMay : [])
+      .map((item) => item?.MA_DVKT?.toString().trim().toUpperCase())
+      .filter(Boolean),
+  );
 
   // Để tiện tra cứu, tạo một Map cho XML1 dựa trên MA_LK
   // Vì các quy tắc dưới đây thường tham chiếu đến thông tin trong XML1
@@ -1095,7 +1100,7 @@ export function validateInterRecords(
           rowIndex,
           fieldName: 'THOI_DIEM_DBLS',
           errorCode: 'THOI_DIEM_DBLS nằm ngoài thời gian điều trị',
-          errorMessage: `THOI_DIEM_DBLS = ${record.THOI_DIEM_DBLS} nằm ngoài thời gian điều trị từ ${xml1Record.NGAY_VAO} đến ${xml1Record.NGAY_RA}`,
+          errorMessage: `THOI_DIEM_DBLS = ${formatDateTime(record.THOI_DIEM_DBLS)} nằm ngoài thời gian điều trị từ ${formatDateTime(xml1Record.NGAY_VAO)} -> ${formatDateTime(xml1Record.NGAY_RA)}`,
           severity: 'error',
           ...patientInfo,
         });
@@ -2310,9 +2315,7 @@ export function validateInterRecords(
     }
 
     if (outOfTimeDetails.length > 0) {
-      const detailText = outOfTimeDetails
-        .map((d) => `${d.field} (${d.timeStr})`)
-        .join(', ');
+      const detailText = outOfTimeDetails.map((d) => `${d.field} (${d.timeStr})`).join(', ');
 
       const khungGioText = `Sáng (${settings.sang.start} - ${settings.sang.end}), Chiều (${settings.chieu.start} - ${settings.chieu.end})`;
 
@@ -2348,7 +2351,7 @@ export function validateInterRecords(
           sheetName: 'XML1',
           rowIndex,
           fieldName: 'NGAY_TAI_KHAM',
-          errorCode: 'THIEU_XML14',
+          errorCode: 'Thiếu XML14 khi có NGAY_TAI_KHAM',
           errorMessage:
             'Lỗi thiếu XML14: NGAY_TAI_KHAM có dữ liệu nhưng không có bản ghi trong XML14.',
           severity: 'warning',
@@ -3144,7 +3147,7 @@ export function validateInterRecords(
         sheetName: 'XML3',
         rowIndex,
         fieldName: 'NGAY_SINH',
-        errorCode: 'Chống chỉ định DVKT theo độ tuổi',
+        errorCode: 'Chống chỉ định DVKT',
         errorMessage: `Dịch vụ [${dvktRecord.MA_DICH_VU} - ${dvktRecord.TEN_DICH_VU}] không áp dụng cho độ tuổi ${age} (Cho phép: ${min}-${max}).`,
         severity: 'error',
         ...getPatientInfo(dvktRecord),
@@ -3163,7 +3166,7 @@ export function validateInterRecords(
         sheetName: 'XML3',
         rowIndex,
         fieldName: 'GIOI_TINH',
-        errorCode: 'Chống chỉ định DVKT theo giới tính',
+        errorCode: 'Chống chỉ định DVKT',
         errorMessage: `Dịch vụ [${MA_DICH_VU}] chỉ áp dụng cho Nam.`,
         severity: 'error',
         ...getPatientInfo(dvktRecord),
@@ -3173,7 +3176,7 @@ export function validateInterRecords(
         sheetName: 'XML3',
         rowIndex,
         fieldName: 'GIOI_TINH',
-        errorCode: 'Chống chỉ định DVKT theo giới tính',
+        errorCode: 'Chống chỉ định DVKT',
         errorMessage: `Dịch vụ [${MA_DICH_VU}] chỉ áp dụng cho Nữ.`,
         severity: 'error',
         ...getPatientInfo(dvktRecord),
@@ -3629,8 +3632,30 @@ export function validateInterRecords(
 
     if (!maDvkt || !maLk) return;
 
+    const patientInfo = getPatientInfo(record);
+    const isMandatoryMachineDvkt = dvktBatBuocMaMaySet.has(maDvkt.toUpperCase());
     const cfg = dvktConfigMap.get(maDvkt || '');
-    if (!cfg) return;
+
+    if (isMandatoryMachineDvkt && !maMay) {
+      errors.push({
+        sheetName: 'XML3',
+        rowIndex,
+        fieldName: 'MA_MAY',
+        errorCode: 'DVKT bắt buộc có mã máy',
+        errorMessage: `DVKT [${maDvkt} - ${tenDvkt}] thuộc danh mục bắt buộc phải có mã máy (MA_MAY).`,
+        severity: 'warning',
+        topic: 'chuyen-de',
+        ...patientInfo,
+        extra: {
+          MA_DVKT: maDvkt,
+          TEN_DVKT: tenDvkt,
+        },
+      });
+    }
+
+    if (!cfg) {
+      return;
+    }
 
     const xml1 = xml1MapByMaLk.get(maLk);
     if (!xml1) return;
@@ -3640,8 +3665,6 @@ export function validateInterRecords(
       ...(xml1.MA_BENH_KT?.split(';') || []),
       ...(xml1.MA_BENH_YHCT?.split(';') || []),
     ].filter(Boolean);
-
-    const patientInfo = getPatientInfo(record);
 
     // 🔹 1. Kiểm tra CHỐNG CHỈ ĐỊNH theo mã bệnh
     if (cfg.chongChiDinhMaBenh) {
@@ -3655,7 +3678,7 @@ export function validateInterRecords(
           sheetName: 'XML3',
           rowIndex,
           fieldName: 'MA_DICH_VU',
-          errorCode: 'Chống chỉ định DVKT theo mã bệnh',
+          errorCode: 'Chống chỉ định DVKT',
           errorMessage: `DVKT [${maDvkt} - ${tenDvkt}] chống chỉ định với mã bệnh ${found}.`,
           severity: 'error',
           ...patientInfo,
@@ -3703,7 +3726,7 @@ export function validateInterRecords(
           sheetName: 'XML3',
           rowIndex,
           fieldName: 'MA_DICH_VU',
-          errorCode: 'Chống chỉ định DVKT theo DVKT khác trong cùng hồ sơ',
+          errorCode: 'Chống chỉ định DVKT',
           errorMessage: `DVKT [${maDvkt} - ${tenDvkt}] chống chỉ định với DVKT ${found}.`,
           severity: 'error',
           ...patientInfo,
@@ -3711,14 +3734,14 @@ export function validateInterRecords(
       }
     }
 
-    if (cfg.checkMaMay === 1) {
+    if (cfg.checkMaMay === 1 && !isMandatoryMachineDvkt) {
       if (!maMay) {
         errors.push({
           sheetName: 'XML3',
           rowIndex,
           fieldName: 'MA_MAY',
           errorCode: 'Thiếu Mã máy',
-          errorMessage: `DVKT [${maDvkt} - ${tenDvkt}] yêu cầu phải có mã máy (MA_MAY).`,
+          errorMessage: `Lỗi từ cấu hình: DVKT [${maDvkt} - ${tenDvkt}] yêu cầu phải có mã máy (MA_MAY).`,
           severity: 'warning',
           ...patientInfo,
         });
@@ -4196,10 +4219,40 @@ export function validateInterRecords(
     value?.toString().trim().replace(/\s+/g, '').toUpperCase() || '';
 
   const dvktConfigs = Array.isArray(dvktTimeConfigList) ? dvktTimeConfigList : [];
+
   const dvktTimeMap = new Map<string, DanhMucThoiGianThucHienDVKT>();
+
+  // Xây map DVKT
+  // Nếu trùng MA_BYT thì lấy cấu hình có thoiGianThucHienMin thấp nhất
   dvktConfigs.forEach((cfg) => {
     const maByt = normalizeDvktCode((cfg as any)?.maByt ?? (cfg as any)?.MA_BYT);
-    if (maByt) {
+
+    if (!maByt) return;
+
+    const existingCfg = dvktTimeMap.get(maByt);
+
+    // Chưa có → thêm luôn
+    if (!existingCfg) {
+      dvktTimeMap.set(maByt, cfg);
+      return;
+    }
+
+    const currentMin =
+      cfg.thoiGianThucHienMin !== null &&
+      cfg.thoiGianThucHienMin !== undefined &&
+      Number.isFinite(Number(cfg.thoiGianThucHienMin))
+        ? Number(cfg.thoiGianThucHienMin)
+        : Infinity;
+
+    const existingMin =
+      existingCfg.thoiGianThucHienMin !== null &&
+      existingCfg.thoiGianThucHienMin !== undefined &&
+      Number.isFinite(Number(existingCfg.thoiGianThucHienMin))
+        ? Number(existingCfg.thoiGianThucHienMin)
+        : Infinity;
+
+    // Trùng mã DVKT → lấy cấu hình có MIN thấp hơn
+    if (currentMin < existingMin) {
       dvktTimeMap.set(maByt, cfg);
     }
   });
@@ -4212,30 +4265,37 @@ export function validateInterRecords(
 
     if (!maDvkt || !ngayThYl || !ngayKq || !maLk) return;
 
+    // Lấy cấu hình DVKT đã được chọn
+    // Nếu có nhiều cấu hình trùng MA_BYT thì đây là cấu hình có MIN thấp nhất
     const cfg = dvktTimeMap.get(maDvkt);
-    console.log('=== CHECK DVKT ===');
-    console.log('MA_DICH_VU XML3:', record.MA_DICH_VU);
-    console.log('maDvkt normalize:', maDvkt);
-    console.log('cfg:', cfg);
+
     if (!cfg) return;
 
     const start = parseDateTime(ngayThYl);
     const end = parseDateTime(ngayKq);
+
     if (!start || !end) return;
 
     const diffMinutes = Math.floor((end.getTime() - start.getTime()) / (1000 * 60));
+
     const minMinutes =
-      cfg.thoiGianThucHienMin !== null && cfg.thoiGianThucHienMin !== undefined
+      cfg.thoiGianThucHienMin !== null &&
+      cfg.thoiGianThucHienMin !== undefined &&
+      Number.isFinite(Number(cfg.thoiGianThucHienMin))
         ? Number(cfg.thoiGianThucHienMin)
         : null;
+
     const maxMinutes =
-      cfg.thoiGianThucHienMax !== null && cfg.thoiGianThucHienMax !== undefined
+      cfg.thoiGianThucHienMax !== null &&
+      cfg.thoiGianThucHienMax !== undefined &&
+      Number.isFinite(Number(cfg.thoiGianThucHienMax))
         ? Number(cfg.thoiGianThucHienMax)
         : null;
 
+    // Kiểm tra thời gian thực hiện DVKT
     const isOutOfRange =
-      (minMinutes !== null && Number.isFinite(minMinutes) && diffMinutes < minMinutes) ||
-      (maxMinutes !== null && Number.isFinite(maxMinutes) && diffMinutes > maxMinutes);
+      (minMinutes !== null && diffMinutes < minMinutes) ||
+      (maxMinutes !== null && diffMinutes > maxMinutes);
 
     if (isOutOfRange) {
       errors.push({
@@ -4245,27 +4305,34 @@ export function validateInterRecords(
         errorCode: 'Thời gian thực hiện DVKT nằm ngoài thời gian cấu hình',
         errorMessage: `DVKT [${record.MA_DICH_VU?.trim()} - ${
           cfg.tenDvkt
-        }] có thời gian thực hiện ${diffMinutes} phút, nằm ngoài khoảng cho phép (${minMinutes ?? '...'} - ${maxMinutes ?? '...'} phút).`,
+        }] có thời gian thực hiện ${diffMinutes} phút, nằm ngoài khoảng cho phép (${
+          minMinutes ?? '...'
+        } - ${maxMinutes ?? '...'} phút).`,
         severity: 'warning',
         ...getPatientInfo(record),
       });
     }
 
+    // Kiểm tra thứ tự thực hiện DVKT
     if (cfg.hoanThanhTruocDvkt) {
       const requiredDvktCode = normalizeDvktCode(cfg.hoanThanhTruocDvkt);
+
       const dvktPhaiSau = requiredDvktCode
         ? xml3ByMaLkAndDvkt.get(maLk)?.get(requiredDvktCode)
         : undefined;
 
       if (dvktPhaiSau && dvktPhaiSau.NGAY_KQ) {
         const ngayKqPhaiSau = parseDateTime(dvktPhaiSau.NGAY_KQ.trim());
+
         if (ngayKqPhaiSau && end.getTime() >= ngayKqPhaiSau.getTime()) {
           errors.push({
             sheetName: 'XML3',
             rowIndex,
             fieldName: 'NGAY_KQ',
             errorCode: 'Thứ tự thực hiện DVKT không hợp lệ',
-            errorMessage: `DVKT [${record.MA_DICH_VU?.trim()} - ${cfg.tenDvkt}] phải hoàn thành trước DVKT [${cfg.hoanThanhTruocDvkt}].`,
+            errorMessage: `DVKT [${record.MA_DICH_VU?.trim()} - ${
+              cfg.tenDvkt
+            }] phải hoàn thành trước DVKT [${cfg.hoanThanhTruocDvkt}].`,
             severity: 'warning',
             ...getPatientInfo(record),
           });

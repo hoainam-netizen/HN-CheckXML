@@ -113,6 +113,7 @@ const XMLViewer: React.FC = () => {
     chieu: { start: '13:00', end: '17:00' },
   });
   const [danhMucBoCheckMaMay, setDanhMucBoCheckMaMay] = useState<any[]>([]);
+  const [dvktBatBuocMaMay, setDvktBatBuocMaMay] = useState<any[]>([]);
   const [danhMucCauHinhDVKT, setDanhMucCauHinhDVKT] = useState<any[]>([]);
   const [openModal, setOpenModal] = useState(false);
 
@@ -172,6 +173,12 @@ const XMLViewer: React.FC = () => {
       setDvktTimeConfigList(dvktTimeConfigList || []);
       setKhungGioKCB(normalizedKhungGio);
       setDanhMucBoCheckMaMay(dvktKhongKiemTraMaMay || []);
+      const dvktBatBuocMaMayResponse = await fetch(
+        `${import.meta.env.BASE_URL}DVKTBatbuocmamay.json`,
+      );
+      setDvktBatBuocMaMay(
+        dvktBatBuocMaMayResponse.ok ? await dvktBatBuocMaMayResponse.json() : [],
+      );
       setDanhMucCauHinhDVKT(Array.isArray(danhMucCauHinhDVKT)
         ? danhMucCauHinhDVKT
         : danhMucCauHinhDVKT?.list || []);
@@ -419,6 +426,7 @@ const XMLViewer: React.FC = () => {
         danhMucCauHinhDVKT,
         khungGioKCB,
         tbytList,
+        dvktBatBuocMaMay,
       );
       allErrors.push(...interErrors);
     }
